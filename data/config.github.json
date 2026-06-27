@@ -106,13 +106,11 @@
       "apify_token_env": "APIFY_TOKEN"
     },
     "telegram": {
-      "enabled": false,
+      "enabled": true,
       "channels": [
-        {
-          "channel": "zaihuapd",
-          "enabled": true,
-          "fetch_limit": 20
-        }
+        { "channel": "FinanceNewsDaily", "enabled": true, "fetch_limit": 20 },
+        { "channel": "zaihuapd",         "enabled": true, "fetch_limit": 20 },
+        { "channel": "TimeHorizonX",     "enabled": true, "fetch_limit": 20 }
       ]
     }
   },
