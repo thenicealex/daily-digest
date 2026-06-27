@@ -95,6 +95,16 @@
       "users": [],
       "fetch_comments": 10
     },
+    "twitter": {
+      "enabled": true,
+      "mode": "apify",
+      "users": [
+        "karpathy", "rasbt", "lilianweng", "chipro", "natolambert", "fchollet",
+        "AswathDamodaran", "LynAldenContact", "elerianm", "biancoresearch", "jasonfurman", "BLS_gov"
+      ],
+      "fetch_limit": 10,
+      "apify_token_env": "APIFY_TOKEN"
+    },
     "telegram": {
       "enabled": false,
       "channels": [
