@@ -5,105 +5,94 @@ date: 2026-06-29
 lang: en
 ---
 
-> From 47 items, 4 important content pieces were selected
+> From 49 items, 4 important content pieces were selected
 
 ---
 
-1. [GLM 5.2 Outperforms Claude in Semgrep Cybersecurity Benchmarks](#item-1) ⭐️ 8.0/10
-2. [Brown Professor Exposes Widespread AI Cheating on Exam](#item-2) ⭐️ 8.0/10
-3. [Interactive web page shrinks transformer to editable weights for learning](#item-3) ⭐️ 8.0/10
-4. [Google Restricts Meta's Gemini Use Due to Compute Shortage](#item-4) ⭐️ 8.0/10
+1. [Memory Prices from 1960 to 2026: A Historical Chart](#item-1) ⭐️ 8.0/10
+2. [Using Claude Code for MRI Second Opinion Sparks Debate](#item-2) ⭐️ 8.0/10
+3. [Interactive transformer lets you edit weights live](#item-3) ⭐️ 8.0/10
+4. [Google Restricts Meta's Gemini Access Due to Compute Shortage](#item-4) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [GLM 5.2 Outperforms Claude in Semgrep Cybersecurity Benchmarks](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/) ⭐️ 8.0/10
+## [Memory Prices from 1960 to 2026: A Historical Chart](https://dam.stanford.edu/memory-prices.html) ⭐️ 8.0/10
 
-Semgrep reported that GLM 5.2, an open-weight model from Z.AI, surpassed Claude in their cybersecurity vulnerability detection benchmarks, achieving higher accuracy at a lower cost per vulnerability found. The model scored notably higher than Claude Code and other competitors in tests for finding bugs that the Mythos tool finds. This result highlights the rapid progress of open-weight models in specialized domains like cybersecurity, potentially reducing reliance on closed-source APIs. It also underscores the growing competition between Chinese and US AI labs in practical, high-stakes applications. GLM 5.2 is a 744-billion parameter model with 40 billion active parameters and a 1-million token context window, requiring significant hardware (e.g., ~411 GB VRAM at INT4 quantization) for local deployment. Some commenters noted that Claude Code is an agent harness rather than a pure LLM, potentially affecting benchmark comparisons.
+Stanford University's DAM Lab published a comprehensive chart and discussion detailing memory (RAM) prices from 1960 through projected 2026, showing a dramatic long-term decline with periodic cycles. This long-term dataset enables analysis of price trends, inflation effects, and market cycles in the semiconductor industry, helping to understand the historical and future trajectory of memory costs. The chart is not inflation-adjusted, which would make early prices appear even higher. Prices per gigabyte before 1990 were unrealistic as systems didn't have GB-scale memory then.
 
-hackernews · jms703 · Jun 28, 17:50 · [Discussion](https://news.ycombinator.com/item?id=48709670)
+hackernews · vga1 · Jun 28, 18:32 · [Discussion](https://news.ycombinator.com/item?id=48710092)
 
-**Background**: Large language models (LLMs) like GLM 5.2 and Claude are increasingly used for cybersecurity tasks such as vulnerability detection. Benchmarks like Semgrep's test performance on finding security bugs in code. Open-weight models allow local or private deployment, which is important for sensitive security work. GLM 5.2 is part of Z.AI's GLM series, known for strong performance in coding and reasoning.
+**Background**: Memory prices have followed a long-term exponential decline with periodic booms and busts due to supply-demand cycles and technology node transitions. The dataset is a continuation of the previously maintained jcmit.com dataset, now hosted by Stanford.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://huggingface.co/zai-org/GLM-5.2">zai-org/GLM-5.2 · Hugging Face</a></li>
-<li><a href="https://unsloth.ai/docs/models/glm-5.2">GLM-5.2 - How to Run Locally | Unsloth Documentation</a></li>
-<li><a href="https://explore.n1n.ai/blog/run-glm-5-2-locally-open-weights-guide-2026-06-15">Run GLM-5.2 Locally: A Complete Guide to the Open Weights Coding Model | Enterprise Unified LLM API Gateway (One Key for All Models) | n1n.ai</a></li>
+**Discussion**: Commenters noted the non-inflation-adjusted data, shared personal memories of high memory costs in the 1980s-1990s, and questioned the AI-driven price spike's impact on future hardware upgrades. They also discussed the repeating price cycles and the dataset's long-term preservation.
 
-</ul>
-</details>
-
-**Discussion**: Community members praised GLM 5.2 as a good workhorse for daily programming, with one user reporting a productive session costing only $20 compared to over $100 with GPT-4. However, some questioned the benchmark design (e.g., Claude Code being an agent, not an LLM) and noted hardware requirements make local inference challenging. Others highlighted that GLM 5.2 assists in self-training, similar to frontier models.
-
-**Tags**: `#GLM`, `#LLM`, `#benchmarks`, `#cybersecurity`, `#AI`
+**Tags**: `#memory`, `#hardware`, `#history`, `#pricing`, `#semiconductor`
 
 ---
 
 <a id="item-2"></a>
-## [Brown Professor Exposes Widespread AI Cheating on Exam](https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html) ⭐️ 8.0/10
+## [Using Claude Code for MRI Second Opinion Sparks Debate](https://antoine.fi/mri-analysis-using-claude-code-opus) ⭐️ 8.0/10
 
-A professor at Brown University publicly reported that a large number of students used AI tools like ChatGPT to cheat on an exam, sparking a debate on academic integrity in the AI era. This incident highlights the growing challenge AI poses to traditional assessment methods and could push universities to redesign exams and integrity policies. The professor, whose research is in game theory, noted that the cheating was 'mass' and that current detection tools like Turnitin and GPTZero have limitations. The university is considering in-person handwritten exams and oral interviews.
+A user uploaded their MRI images to Claude Code, Anthropic's AI model, to obtain a second opinion on a shoulder injury, documenting the experience in a blog post. This experiment highlights the growing potential of AI to assist in medical diagnostics, but also raises critical questions about trust, accuracy, and the proper role of AI in healthcare. The user used Claude Opus, the most capable variant of Claude, to analyze MRI scans of their shoulder and compare findings with their radiologist's report. The community discussion included a radiologist noting that ultrasound is not reliable for detecting calcification, a key point in the user's case.
 
-hackernews · geox · Jun 28, 16:41 · [Discussion](https://news.ycombinator.com/item?id=48708991)
+hackernews · engmarketer · Jun 28, 16:35 · [Discussion](https://news.ycombinator.com/item?id=48708941)
 
-**Background**: AI detection software such as Turnitin, GPTZero, and Copyleaks are commonly used by educators to identify AI-generated text. However, these tools are not perfect and can produce false positives or miss sophisticated AI use. The rise of large language models like ChatGPT has made it easier for students to generate essays and answers, challenging traditional notions of academic integrity.
+**Background**: Claude is a series of large language models developed by Anthropic, known for its constitutional AI approach to alignment. Claude Code is an AI coding agent that can also process text and images, making it adaptable for tasks like analyzing medical images, though it is not specifically designed or certified for medical use.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.turnitin.com/solutions/topics/ai-writing/">AI Checker Solutions: Ensure Academic Integrity | Turnitin</a></li>
-<li><a href="https://en.wikipedia.org/wiki/GPTZero">GPTZero - Wikipedia</a></li>
-<li><a href="https://copyleaks.com/">AI Content & Text Authenticity Detection | Copyleaks</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Code">Claude Code</a></li>
+<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters on Hacker News widely debated the issue. Some argued that the game-theoretic optimal choice is to use LLMs if others are using them. Others, like a professor at Dartmouth, shared experiences of designing curricula adversarially, including paper exams and 1-on-1 interviews. A few questioned the value of grading itself, suggesting that universities should not serve as free screening for companies.
+**Discussion**: Comments from radiologists and patients reveal deep concerns about AI reliability and the psychological impact of second-guessing professional diagnoses. Some users shared personal misdiagnosis stories, while a radiologist emphasized that without seeing the full 3D MRI dataset, it's hard to evaluate the AI's accuracy.
 
-**Tags**: `#AI`, `#academic integrity`, `#education`, `#community discussion`, `#higher education`
+**Tags**: `#AI`, `#healthcare`, `#radiology`, `#second opinion`, `#Claude Code`
 
 ---
 
 <a id="item-3"></a>
-## [Interactive web page shrinks transformer to editable weights for learning](https://www.reddit.com/r/MachineLearning/comments/1uhw7fu/i_shrank_a_transformer_until_every_number_fitted/) ⭐️ 8.0/10
+## [Interactive transformer lets you edit weights live](https://www.reddit.com/r/MachineLearning/comments/1uhw7fu/i_shrank_a_transformer_until_every_number_fitted/) ⭐️ 8.0/10
 
-A software engineer created a single-file HTML page that implements a complete transformer forward pass with a 6-word vocabulary and 3-dimensional embeddings, allowing users to edit weights and see results update live. This interactive visualization provides a hands-on educational tool for understanding transformer internals, making concepts like attention and feed-forward networks tangible for learners. The page uses a single attention head and block, includes causal masking, and computes logits and probabilities for next-word prediction. All weights and word vectors are editable, and a Randomize button demonstrates untrained random weights.
+A software engineer created a self-contained HTML page that shrinks a full transformer to a 6-word vocabulary and 3D embeddings, with editable weights that recompute the entire forward pass live. This tool makes transformer internals—from word vectors to attention scores to logits—visually accessible and manipulable, greatly lowering the barrier for self-learners to understand LLM mechanics. The page uses a single attention head, one transformer block, and a 6-word vocabulary with 3-dimensional embeddings. All weights are editable and downstream values update instantly, but backpropagation is intentionally omitted.
 
 reddit · r/MachineLearning · /u/DanielMoGo · Jun 28, 12:35
 
-**Background**: Transformers are the foundation of modern large language models (LLMs). They use self-attention mechanisms with queries, keys, and values (QKV) to process sequences, and causal masking prevents the model from looking at future tokens during generation. This page simplifies those concepts to minimal dimensions for clarity.
+**Background**: Transformers are the core architecture behind modern LLMs like GPT. They use self-attention with Query, Key, Value projections and a causal mask to prevent the model from seeing future tokens. This interactive page visualizes the entire forward pass step by step.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://medium.com/@jinoo/a-simple-example-of-attention-masking-in-transformer-decoder-a6c66757bc7d">A Simple Example of Causal Attention Masking in Transformer Decoder | by Jinoo Baek | Medium</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Attention_(machine_learning)">Attention (machine learning) - Wikipedia</a></li>
-<li><a href="https://www.turingpost.com/p/your-ultimate-guide-to-attention-mechanism-qkv-and-kv-cache">AI 101: Your Ultimate Guide to Attention: Mechanism, QKV, and KV Cache</a></li>
+<li><a href="https://poloclub.github.io/transformer-explainer/">Transformer Explainer: LLM Transformer Model Visually Explained</a></li>
+<li><a href="https://machinelearningmastery.com/a-gentle-introduction-to-attention-masking-in-transformer-models/">A Gentle Introduction to Attention Masking in Transformer ...</a></li>
+<li><a href="https://www.codecademy.com/article/transformer-architecture-self-attention-mechanism">Transformer Architecture Explained With Self-Attention Mechanism | Codecademy</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#transformer`, `#visualization`, `#education`, `#interactive`, `#LLM`
+**Tags**: `#transformer`, `#education`, `#interactive visualization`, `#forward pass`, `#LLM mechanics`
 
 ---
 
 <a id="item-4"></a>
-## [Google Restricts Meta's Gemini Use Due to Compute Shortage](https://www.ft.com/content/c5d52f72-71ef-40bc-bad3-61afdba8b378) ⭐️ 8.0/10
+## [Google Restricts Meta's Gemini Access Due to Compute Shortage](https://www.ft.com/content/c5d52f72-71ef-40bc-bad3-61afdba8b378) ⭐️ 8.0/10
 
-Google informed Meta in March 2026 that it could not supply the full Gemini compute capacity Meta had purchased, forcing Meta to ration AI tokens and accelerate development of its own Muse Spark model. This reveals a critical AI infrastructure bottleneck where even major players like Meta face compute shortages, potentially slowing AI innovation and intensifying the race for self-owned data centers and alternative models. The restriction has been in effect since March and has disrupted some of Meta's internal AI projects. Google signed a $920 million per month compute lease with SpaceX this month to expand capacity, while Meta plans $600 billion in US data center investment by 2028.
+In March 2026, Google informed Meta that it could not provide the full Gemini capacity Meta had purchased, forcing Meta to prioritize internal AI models like Muse Spark and urge employees to use AI tokens more efficiently. This highlights a severe AI compute bottleneck affecting even the largest tech companies, and may accelerate the industry shift toward self-developed models and more efficient token usage. Google's compute constraints were acknowledged by CEO Sundar Pichai in April 2026 earnings call, and Google signed a $920 million per month deal with SpaceX to expand capacity. Meta's new Muse Spark model (launched April 2026) is a closed model, marking a break from its open-source Llama strategy.
 
 telegram · zaihuapd · Jun 28, 07:38
 
-**Background**: AI tokens are the basic units of text or data that large language models process; rationing tokens means limiting usage to conserve compute. Meta, lacking its own cloud business, has been relying on external cloud providers like Google Cloud for AI compute, making it vulnerable to capacity constraints. Muse Spark is Meta's new multimodal reasoning model aimed at reducing dependency on third-party models.
+**Background**: Gemini is Google's family of multimodal large language models, successor to LaMDA and PaLM 2. Compute shortages in AI are widespread due to surging demand for training and inference. Meta Muse Spark is Meta's most advanced AI model, launched in April 2026, and unlike prior open releases, it is a closed model.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://blogs.nvidia.com/blog/ai-tokens-explained/">What Are AI Tokens? The Language and Currency Powering Modern AI | NVIDIA Blog</a></li>
-<li><a href="https://ai.meta.com/blog/introducing-muse-spark-msl/">Introducing Muse Spark: Scaling Towards Personal Superintelligence</a></li>
-<li><a href="https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/">Introducing Muse Spark: Meta's Most Powerful Model Yet</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gemini_(AI_model)">Gemini (AI model)</a></li>
+<li><a href="https://metamusespark.in/">MetaMuseSpark - Your Guide to Meta 's AI Revolution</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#Google`, `#Meta`, `#Gemini`, `#compute`
+**Tags**: `#AI`, `#Compute Shortage`, `#Google`, `#Meta`, `#Gemini`
 
 ---
