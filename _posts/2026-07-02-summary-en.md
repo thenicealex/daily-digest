@@ -5,233 +5,248 @@ date: 2026-07-02
 lang: en
 ---
 
-> From 63 items, 11 important content pieces were selected
+> From 64 items, 12 important content pieces were selected
 
 ---
 
-1. [First Synthetic Cell That Grows and Divides Created](#item-1) ⭐️ 9.0/10
-2. [Sony to End Physical Game Discs for New PlayStation Titles by 2028](#item-2) ⭐️ 9.0/10
-3. [Box3D: A New Open-Source 3D Physics Engine by Box2D Creator](#item-3) ⭐️ 9.0/10
-4. [MOTHRAG: Graph-Free Multi-Hop Retrieval Beats Graph Systems on HotpotQA](#item-4) ⭐️ 9.0/10
-5. [Global review confirms mRNA vaccines safe and effective](#item-5) ⭐️ 8.0/10
-6. [Graphics Programming Learning Path Discussed](#item-6) ⭐️ 8.0/10
-7. [Cloudflare Monetization Gateway Enables Pay-Per-Request via x402](#item-7) ⭐️ 8.0/10
-8. [arXiv to Spin Out from Cornell as Independent Nonprofit in 2026](#item-8) ⭐️ 8.0/10
-9. [NVIDIA Boosts DeepSeek V4 Inference, Slashes Token Cost by 5x](#item-9) ⭐️ 8.0/10
-10. [Visa, Mastercard Lead 140+ Firms in New Stablecoin Network](#item-10) ⭐️ 8.0/10
-11. [ChatGPT weekly users double to 200 million in under a year](#item-11) ⭐️ 8.0/10
+1. [First Synthetic Cell Grows and Divides](#item-1) ⭐️ 10.0/10
+2. [Sony to End Physical Game Discs by Jan 2028](#item-2) ⭐️ 9.0/10
+3. [MOTHRAG: Graph-Free Multi-Hop RAG Outperforms Graph Systems](#item-3) ⭐️ 9.0/10
+4. [NVIDIA cuts DeepSeek V4 token cost to one-fifth](#item-4) ⭐️ 9.0/10
+5. [Box3D: Open Source 3D Physics Engine Announced](#item-5) ⭐️ 8.0/10
+6. [Interactive Deep Dive into Internal Combustion Engines](#item-6) ⭐️ 8.0/10
+7. [Cloudflare Launches Monetization Gateway Using HTTP 402 and Stablecoins](#item-7) ⭐️ 8.0/10
+8. [IPFS Optimistic Provide: 10x Faster Content Publishing](#item-8) ⭐️ 8.0/10
+9. [HNNs from Differential Geometry Perspective](#item-9) ⭐️ 8.0/10
+10. [arXiv to Become Independent Nonprofit in July 2026](#item-10) ⭐️ 8.0/10
+11. [Visa, Mastercard Lead 140+ Firms in Open Standard Stablecoin Network](#item-11) ⭐️ 8.0/10
+12. [ChatGPT doubles to 200M weekly users in under a year](#item-12) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [First Synthetic Cell That Grows and Divides Created](https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/) ⭐️ 9.0/10
+## [First Synthetic Cell Grows and Divides](https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/) ⭐️ 10.0/10
 
-Researchers led by Kate Adamala at the University of Minnesota have created SpudCell, the first synthetic cell built entirely from non-living chemical components that can grow, replicate its genome, and divide. This breakthrough was announced in a paper posted online on July 1, 2026. This marks a major milestone in synthetic biology, demonstrating a complete life cycle in a man-made cell for the first time. It could revolutionize fields such as biological engineering, medicine, and materials science by enabling the design of bespoke living systems. SpudCell grows by fusing with other droplets, replicates its genome, and divides without a cytoskeleton, using special proteins to force inward bending. However, it cannot manufacture ribosomes, so it relies on external components for protein synthesis.
+For the first time, a synthetic cell named SpudCell, built entirely from scratch using chemical compounds, has been demonstrated to grow, replicate its genome, and divide, completing a full cell cycle. This breakthrough overcomes a key hurdle in synthetic biology—achieving cell division without a cytoskeleton—and brings us closer to creating fully artificial life, with potential applications in biotechnology, medicine, and materials science. The SpudCell was developed by Kate Adamala's team at the University of Minnesota Twin Cities and is described in a 190-page manuscript that was initially rejected by Cell journal. Instead of using a cytoskeleton, the cell divides by fusing with other droplets.
 
 hackernews · defrost · Jul 1, 14:20 · [Discussion](https://news.ycombinator.com/item?id=48747304)
 
-**Background**: Synthetic biology aims to build living systems from scratch, but previous synthetic cells could not divide. Cell division is a complex process typically involving the cytoskeleton. Adamala's team bypassed this by creating a simplified division mechanism, advancing the field significantly.
+**Background**: Synthetic biology aims to create artificial cells from non-living materials. Previous efforts created 'minimal cells' by stripping down natural cells and adding synthetic genomes. However, achieving self-sustained growth and division—the hallmarks of life—remained elusive. SpudCell's approach bypasses the need for a cytoskeleton, simplifying the process.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.nytimes.com/interactive/2026/07/01/science/spudcells-synthetic-cell.html">This Cell Feeds, Grows and Reproduces. And It’s Manmade. - The New York Times</a></li>
+<li><a href="https://www.theguardian.com/science/2026/jul/01/synthetic-life-lab-made-dna-spudcells-scientists">‘Beautiful blobs’: synthetic life a step closer as scientists make cells using lab-made DNA | Science | The Guardian</a></li>
 <li><a href="https://www.science.org/content/article/lab-created-spudcell-marks-major-step-toward-building-life-scratch">Lab-created ‘SpudCell’ marks ‘stunning’ step toward building life from scratch | Science | AAAS</a></li>
-<li><a href="https://twin-cities.umn.edu/news-events/worlds-first-synthetic-cell-complete-life-cycle-could-revolutionize-biological">World’s first synthetic cell with a complete life cycle could revolutionize biological engineering | University of Minnesota</a></li>
+<li><a href="https://www.nytimes.com/2026/07/01/science/spud-cell-what-to-know.html">SpudCell: Scientists Made a Cell With Most of the Hallmarks of Life. Here’s What to Know. - The New York Times</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments highlight the controversy over the paper's peer review process, with some peers criticizing premature publicity, but many acknowledge the significance of the breakthrough. Others discuss technical details like homochirality and the source of amino acids.
+**Discussion**: The community discussion highlights mixed reactions. Some praise the scientific achievement, but others criticize Adamala for bypassing peer review by circulating the manuscript to journalists before publishing on bioRxiv. There is also debate over whether SpudCells qualify as 'real biology'.
 
-**Tags**: `#synthetic biology`, `#cell division`, `#groundbreaking research`, `#spudcell`
+**Tags**: `#synthetic biology`, `#synthetic cell`, `#cell division`, `#SpudCell`, `#Kate Adamala`
 
 ---
 
 <a id="item-2"></a>
-## [Sony to End Physical Game Discs for New PlayStation Titles by 2028](https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/) ⭐️ 9.0/10
+## [Sony to End Physical Game Discs by Jan 2028](https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/) ⭐️ 9.0/10
 
-Sony announced that starting January 2028, new games for PlayStation consoles will no longer be produced on physical discs; only digital releases will be available via the PlayStation Store and retailers. This marks a major shift in the gaming industry, raising concerns about digital ownership, game preservation, and consumer rights, as digital purchases are often licenses that can be revoked. The change applies to all new PlayStation games, including first-party and third-party titles, but does not affect games released before January 2028. Sony cited consumer preference for digital media as the reason.
+Sony announced that physical disc production for new PlayStation games will cease in January 2028, transitioning to an all-digital distribution model. This marks a major industry shift away from physical media, raising concerns about digital ownership, game preservation, and consumer rights. The move could accelerate the decline of physical game sales and impact second-hand markets. The deadline applies only to new game releases; existing physical stock will still be sold. Sony's optical disc manufacturing subsidiary, Sony DADC, has been producing PlayStation discs since the CD era.
 
 hackernews · Tiberium · Jul 1, 12:13 · [Discussion](https://news.ycombinator.com/item?id=48745456)
 
-**Background**: Physical game discs have been a staple of console gaming for decades, offering ownership and resale opportunities. Digital distribution, however, has grown rapidly, with platforms like Steam and PlayStation Store leading the shift. Critics argue that digital-only ecosystems undermine preservation and allow companies to revoke access to purchased content, as seen with Sony's recent removal of purchased movies from user libraries.
+**Background**: Physical game discs have been the primary distribution medium for decades, but digital sales have grown steadily. Sony's decision reflects a broader trend in the industry, with Microsoft and Nintendo also exploring disc-less consoles. The shift raises issues of DRM, server dependencies, and long-term game accessibility.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/">Physical disc production ending in January 2028 for new games releasing on PlayStation consoles – PlayStation.Blog</a></li>
-<li><a href="https://www.ign.com/articles/sony-just-killed-discs-physical-disc-production-to-end-january-2028-for-new-games-releasing-on-playstation-consoles">Sony Just Killed Discs: Physical Disc Production to End January 2028 for New Games Releasing on PlayStation Consoles in 'Watershed Moment for the Industry'</a></li>
-<li><a href="https://www.gamefile.news/p/sony-drops-playstation-discs-2028-ps3-vita-stores-closing">Sony will cease production of discs for new PlayStation games in 2028</a></li>
+**Discussion**: Community sentiment is largely negative, with users citing Sony's recent removal of purchased movies as evidence of digital ownership being unreliable. Many compare inflated digital prices to cheaper physical options on eBay, and some question the future of Blu-ray as a format.
 
-</ul>
-</details>
-
-**Discussion**: Community comments express strong skepticism, citing Sony's recent removal of purchased movies without refund as eroding trust. Users highlight that digital games are leased, not owned, and compare prices—e.g., Dark Souls 3 costing $11 used on disc vs. $60 digital. Some fear this spells the end of physical media for movies too, as Blu-ray plants lose a key revenue source.
-
-**Tags**: `#gaming`, `#digital rights`, `#physical media`, `#sony`, `#game preservation`
+**Tags**: `#gaming`, `#digital rights`, `#physical media`, `#PlayStation`, `#industry trend`
 
 ---
 
 <a id="item-3"></a>
-## [Box3D: A New Open-Source 3D Physics Engine by Box2D Creator](https://box2d.org/posts/2026/06/announcing-box3d/) ⭐️ 9.0/10
+## [MOTHRAG: Graph-Free Multi-Hop RAG Outperforms Graph Systems](https://www.reddit.com/r/MachineLearning/comments/1ukotww/p_mothretrieval_graphfree_multihop_retrieval_via/) ⭐️ 9.0/10
 
-Erin Catto, the creator of the widely-used Box2D physics engine, announced Box3D, an open-source 3D physics engine released under the MIT license on GitHub. Box3D continues the legacy of Box2D, which powered countless indie games and reinforcement learning environments, and its 3D extension could become a foundational tool for game development, simulation, and ML research. The engine focuses on rigid body dynamics and aims to provide a stable, performant, and open alternative to proprietary 3D physics engines, though details on determinism and specific features are yet to be fully disclosed.
+Researchers open-sourced MOTHRAG, a multi-hop retrieval-augmented generation (RAG) framework that achieves state-of-the-art accuracy on HotpotQA (78.1%), 2WikiMultiHopQA (76.3%), and MuSiQue (50.5%) without using any knowledge graph, relying instead on a dense index and query-time orchestration. This approach eliminates the expensive offline graph rebuilding required by graph-based RAG systems when data changes, enabling cheap, incremental updates (embed-and-append) and lowering the barrier for production deployments with frequently updating corpora. MOTHRAG runs at ~$0.03 per query on commodity APIs with no GPU, and matches or beats graph-based systems like GraphRAG, HippoRAG, and RAPTOR on three benchmarks, though it slightly lags on MuSiQue (50.5 vs 52.6 for NeocorRAG).
 
-hackernews · makepanic · Jul 1, 12:12 · [Discussion](https://news.ycombinator.com/item?id=48745445)
+reddit · r/MachineLearning · /u/Annual-Commercial563 · Jul 1, 15:26
 
-**Background**: Box2D, created by Erin Catto, is a 2D physics engine that became immensely popular in game development (e.g., Angry Birds) and later in machine learning via OpenAI Gym environments like Lunar Lander. Box3D extends this proven approach to 3D, addressing the need for a well-designed open-source physics engine in the 3D space.
+**Background**: Multi-hop RAG requires retrieving and reasoning over multiple pieces of information to answer complex queries. Traditional high-accuracy systems like GraphRAG build offline knowledge graphs to capture relationships, but any data change forces a full graph rebuild, which is costly for dynamic data sources. Dense indices store embeddings for each text chunk and enable fast similarity search without explicit graph structure. Query-time orchestration dynamically plans retrieval steps during inference, avoiding the need for a precomputed graph.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Box2D">Box2D - Wikipedia</a></li>
-<li><a href="https://github.com/erincatto/box3d">GitHub - erincatto/box3d: Box3D is a 3D physics engine for games · GitHub</a></li>
+<li><a href="https://www.dremio.com/wiki/dense-index/">What is Dense Index? | Data Index Defined | Dremio</a></li>
+<li><a href="https://www.leanware.co/insights/rag-orchestration-services">RAG Orchestration Services Guide | 2026 Guide</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community expressed excitement and nostalgia for Box2D's impact on indie games and ML, with discussions around determinism for networked games (e.g., billiards) and the complexities of physics simulation such as collision detection and solver tuning. Many see Box3D as a potential new standard for open-source 3D physics.
-
-**Tags**: `#physics engine`, `#open source`, `#game development`, `#simulation`, `#reinforcement learning`
+**Tags**: `#RAG`, `#multi-hop retrieval`, `#knowledge graph`, `#LLM`, `#query-time orchestration`
 
 ---
 
 <a id="item-4"></a>
-## [MOTHRAG: Graph-Free Multi-Hop Retrieval Beats Graph Systems on HotpotQA](https://www.reddit.com/r/MachineLearning/comments/1ukotww/p_mothretrieval_graphfree_multihop_retrieval_via/) ⭐️ 9.0/10
+## [NVIDIA cuts DeepSeek V4 token cost to one-fifth](https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/) ⭐️ 9.0/10
 
-Researchers released MOTHRAG, a multi-hop RAG framework that achieves state-of-the-art accuracy on HotpotQA (78.1%) and other benchmarks without using a knowledge graph, relying instead on a dense index and query-time orchestration. MOTHRAG significantly reduces the cost of updating retrieval systems for frequently changing data, as it eliminates the need to rebuild a knowledge graph, offering a practical alternative for production RAG systems. MOTHRAG uses a dense index that supports embed-and-append updates, costs approximately $0.03 per query on commodity APIs without GPU, and is available under Apache-2.0 license.
+NVIDIA's inference software stack on the Blackwell platform achieved a 5x throughput increase for DeepSeek V4, reducing token cost to one-fifth within a month. The SGLang engine's throughput jumped from ~2,200 to ~11,200 tokens per second per GPU on GB300 discrete deployment. This breakthrough drastically lowers the cost of deploying large models, making AI inference more accessible and economical for enterprises. The 5x performance gain also enables faster response times and higher throughput for real-time applications. The improvements stem from deep kernel and runtime optimizations including fusion, memory compression, quantization paths, improved memory budgets, and interruptible computation graphs. Further optimizations like disaggregated serving and multi-token prediction could boost throughput up to 20x.
 
-reddit · r/MachineLearning · /u/Annual-Commercial563 · Jul 1, 15:26
+telegram · zaihuapd · Jul 1, 10:36
 
-**Background**: Multi-hop retrieval requires answering complex questions by combining information from multiple documents. Traditional graph-based RAG systems like GraphRAG build an offline knowledge graph to capture relationships, but this graph must be rebuilt when data changes, incurring high cost. MOTHRAG avoids this by using a dense index and orchestrating retrieval steps at query time.
+**Background**: NVIDIA's Blackwell platform is the latest GPU architecture designed for AI workloads, featuring high memory bandwidth and compute capacity. SGLang is an open-source inference engine widely adopted for serving large language models, supporting advanced features like disaggregated serving that separates prefill and decode phases for better resource utilization. Token cost measures the expense of generating each output token, a key metric for AI inference efficiency.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Dense_index">Dense index</a></li>
-<li><a href="https://arxiv.org/abs/2401.15391">[2401.15391] MultiHop -RAG: Benchmarking Retrieval -Augmented...</a></li>
+<li><a href="https://www.sglang.io/">SGLang</a></li>
+<li><a href="https://www.nvidia.com/en-us/data-center/gb300-nvl72/">Designed for AI Reasoning Performance & Efficiency | NVIDIA GB300 NVL72</a></li>
+<li><a href="https://nvidia.github.io/TensorRT-LLM/blogs/tech_blog/blog5_Disaggregated_Serving_in_TensorRT-LLM.html">Disaggregated Serving in TensorRT LLM — TensorRT LLM</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#multi-hop retrieval`, `#RAG`, `#knowledge graph`, `#dense index`, `#query-time orchestration`
+**Tags**: `#NVIDIA`, `#DeepSeek V4`, `#Inference Optimization`, `#Blackwell`, `#Token Cost`
 
 ---
 
 <a id="item-5"></a>
-## [Global review confirms mRNA vaccines safe and effective](https://news.ubc.ca/2026/06/mrna-vaccines-are-safe-effective-and-full-of-promise/) ⭐️ 8.0/10
+## [Box3D: Open Source 3D Physics Engine Announced](https://box2d.org/posts/2026/06/announcing-box3d/) ⭐️ 8.0/10
 
-A comprehensive global review has reaffirmed that mRNA vaccines are safe and effective, providing robust evidence to counter lingering public skepticism. This validation is crucial for rebuilding public trust and supporting the continued development of mRNA-based therapies for diseases beyond COVID-19, including cancer and influenza. The review synthesizes data from multiple studies and real-world evidence, highlighting the technology's adaptability and rapid manufacturing capabilities.
+Erin Catto, the creator of the influential Box2D library, has announced Box3D, a new open source 3D physics engine. Box2D has been foundational for countless indie games and machine learning environments; Box3D could similarly transform 3D simulation, game development, and reinforcement learning benchmarks. The announcement did not include details about determinism, a critical feature for networked multiplayer games. Community members also noted ongoing challenges in collision detection and solver tuning for physical plausibility.
 
-hackernews · coloneltcb · Jul 2, 00:40 · [Discussion](https://news.ycombinator.com/item?id=48754963)
+hackernews · makepanic · Jul 1, 12:12 · [Discussion](https://news.ycombinator.com/item?id=48745445)
 
-**Background**: mRNA vaccines work by instructing cells to produce a harmless piece of the virus's spike protein, triggering an immune response. They were rapidly developed during the COVID-19 pandemic, achieving unprecedented efficacy but also facing misinformation and trust issues.
+**Background**: Box2D is a widely used 2D physics engine that powers many games (including Angry Birds) and serves as the physics backend for standard reinforcement learning environments like OpenAI Gym. Box3D is its 3D successor, building on the same principles to bring robust physics simulation to three dimensions.
 
-**Discussion**: Community comments reflect a mix of skepticism and hope. Some users blame government mandates for eroding trust, while others emphasize the manufacturing breakthroughs enabled by pandemic funding. Concerns about rare side effects and misuse of T-cell tests persist, but there is also optimism about future applications like universal flu vaccines and cancer treatments.
+**Discussion**: Commenters expressed excitement, with one recalling Box2D's role in Angry Birds physics, another hoping for a revival of physics-oriented indie games, and an ML researcher thanking Erin for Box2D. However, there were also calls for more details on determinism and warnings about the inherent complexity of physics simulation.
 
-**Tags**: `#mRNA`, `#vaccines`, `#public health`, `#safety`, `#technology`
+**Tags**: `#physics engine`, `#open source`, `#game development`, `#simulation`, `#Box2D`
 
 ---
 
 <a id="item-6"></a>
-## [Graphics Programming Learning Path Discussed](https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/) ⭐️ 8.0/10
+## [Interactive Deep Dive into Internal Combustion Engines](https://ciechanow.ski/internal-combustion-engine/) ⭐️ 8.0/10
 
-A blog post titled 'What to learn to be a graphics programmer' outlines key skills and learning paths, with community comments offering practical advice and warnings about the industry's fast pace. This discussion is significant because it provides aspiring graphics programmers with curated advice and cautionary perspectives, helping them make informed career choices in a rapidly evolving field. Topics covered include whether to use existing game engines (e.g., Unreal, Unity) versus building custom renderers, the necessity of linear algebra, and the importance of design and human perception.
+A new interactive article published in 2021 provides a detailed, visual explanation of internal combustion engine mechanics, covering the four-stroke cycle and key components. This resource makes complex mechanical engineering concepts accessible to a broad audience, serving as an excellent educational tool for enthusiasts and students. It also sparks discussion on how engine design has remained stable while control systems evolved. The article focuses on a 1990s-era dual overhead cam (DOHC) engine, illustrating the four-stroke cycle, hydrodynamic lubrication, and the role of oil. Community comments note that mechanical design has changed little in 50 years, but electronic fuel injection and emissions controls have transformed performance and pollution.
 
-hackernews · atan2 · Jul 1, 17:53 · [Discussion](https://news.ycombinator.com/item?id=48750710)
+hackernews · StefanBatory · Jul 1, 13:04 · [Discussion](https://news.ycombinator.com/item?id=48746076)
 
-**Background**: Graphics programming involves creating visual images on computers, typically for games or simulations. It requires knowledge of mathematics (especially linear algebra), graphics APIs (e.g., OpenGL, Vulkan), and shader languages. The field is known for rapid technological change and high competition.
+**Background**: An internal combustion engine (ICE) burns fuel inside cylinders to produce mechanical power, typically through a four-stroke cycle: intake, compression, power, exhaust. Key components include pistons, crankshaft, valves, and spark plugs. Modern engines rely on electronic control units (ECUs) to optimize fuel-air mixture and emissions.
 
-**Discussion**: Comments are mixed: some advise using existing engines for game development, while others warn about the relentless pace of innovation. Contributors also recommend learning resources for linear algebra and emphasize the value of design and perception understanding.
+**Discussion**: Commenters praised the article's clarity and depth, with one noting that the mechanical design of ICEs hasn't changed much in 50 years, while control systems have advanced significantly. Others discussed the importance of hydrodynamic lubrication and remarked that the article omits modern emissions hardware, placing the engine in the 1990s era. The firing order of four-cylinder engines was also debated.
 
-**Tags**: `#graphics programming`, `#game development`, `#career advice`, `#linear algebra`
+**Tags**: `#mechanical-engineering`, `#internal-combustion-engine`, `#interactive-article`, `#technical-deep-dive`
 
 ---
 
 <a id="item-7"></a>
-## [Cloudflare Monetization Gateway Enables Pay-Per-Request via x402](https://blog.cloudflare.com/monetization-gateway/) ⭐️ 8.0/10
+## [Cloudflare Launches Monetization Gateway Using HTTP 402 and Stablecoins](https://blog.cloudflare.com/monetization-gateway/) ⭐️ 8.0/10
 
-Cloudflare announced a Monetization Gateway that uses the x402 protocol to allow website operators to charge for access to resources on a per-request basis, targeting AI agents and bots. This could transform how web resources are monetized, enabling microtransactions for automated agents and potentially reducing bot traffic while creating new revenue streams. The Monetization Gateway leverages the HTTP 402 'Payment Required' status code and supports stablecoins or other crypto payments, with Cloudflare handling legal and invoicing complexities.
+Cloudflare announced a new monetization gateway that enables website operators to charge for access to individual resources using the HTTP 402 status code and stablecoin payments on a pay-per-request basis. This innovation could revolutionize web monetization by enabling frictionless microtransactions for content and APIs, potentially reducing reliance on advertising and subscription models. The system uses the HTTP 402 Payment Required status code, which has been reserved but rarely used, and stablecoins for settlement, allowing for low-fee, instantaneous payments per request.
 
 hackernews · soheilpro · Jul 1, 13:59 · [Discussion](https://news.ycombinator.com/item?id=48746914)
 
-**Background**: The HTTP 402 status code has historically been unused; the x402 initiative by Coinbase and Cloudflare aims to standardize it for machine-to-machine payments. This enables a pay-per-crawl model where AI agents pay for content fetched from websites.
+**Background**: HTTP 402 is a nonstandard status code reserved for future use in digital cash or microtransaction scenarios, but it has not been widely implemented. Stablecoins are cryptocurrencies designed to maintain a stable value relative to a reference asset like the US dollar, and they are increasingly regulated.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.dawnliphardt.com/what-is-the-x402-protocol-cloudflare-endorsed-for-the-web/">What Is the X 402 Protocol ? Cloudflare -Endorsed for... - Dawn Liphardt</a></li>
-<li><a href="https://news.bitcoin.com/visa-mastercard-american-express-join-cloudflare-to-authenticate-ai-agents-at-checkout/">Visa, Mastercard, American Express Join Cloudflare to Authenticate AI...</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/402">402 Payment Required - HTTP | MDN</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Stablecoin">Stablecoin</a></li>
+<li><a href="https://kinsta.com/blog/http-402/">What Is the HTTP 402 Status Code ?</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments express excitement about microtransactions for agents but raise concerns about legal complexity, distinguishing bots from humans, and potential spam abuse.
+**Discussion**: Community comments highlight excitement about microtransactions for agents, but also raise concerns about legal complexities such as invoicing and VAT, and potential abuse for spam content.
 
-**Tags**: `#monetization`, `#Cloudflare`, `#microtransactions`, `#x402`, `#API access`
+**Tags**: `#Cloudflare`, `#monetization`, `#microtransactions`, `#web`, `#payments`
 
 ---
 
 <a id="item-8"></a>
-## [arXiv to Spin Out from Cornell as Independent Nonprofit in 2026](https://www.reddit.com/r/MachineLearning/comments/1ukjtlm/on_july_1_2026_arxiv_will_spin_out_from_cornell/) ⭐️ 8.0/10
+## [IPFS Optimistic Provide: 10x Faster Content Publishing](https://probelab.io/blog/optimistic-provide/) ⭐️ 8.0/10
 
-On July 1, 2026, arXiv will spin out from Cornell University to become an independent nonprofit organization, with major funding from the Simons Foundation and Schmidt Sciences. This structural change is significant because arXiv is a critical infrastructure for open access in scientific research, especially in machine learning and physics, and its independence could reshape governance and long-term sustainability. The spin-out will take effect on July 1, 2026, and is backed by the Simons Foundation and Schmidt Sciences. The organization will also update its website design, ditching the red color scheme.
+Probelab introduced 'optimistic provide', an optimization that makes part of the IPFS content publishing process asynchronous, achieving a 10x speed improvement. This drastically improves user experience for IPFS content publishing, making decentralized storage more practical for real-world applications. The optimistic provide algorithm returns control to the user after most (not all) PUT RPCs succeed, then continues remaining operations in the background.
 
-reddit · r/MachineLearning · /u/Nunki08 · Jul 1, 12:07
+hackernews · dennis-tra · Jul 1, 15:30 · [Discussion](https://news.ycombinator.com/item?id=48748518)
 
-**Background**: arXiv is a preprint repository founded in 1991, hosted by Cornell University for the past 25 years. It allows researchers to share papers before peer review, and has become a cornerstone of open science in fields like physics, math, and computer science.
+**Background**: IPFS (InterPlanetary File System) is a decentralized file system using content addressing. Publishing content involves announcing the content on the DHT (Distributed Hash Table), which can be slow due to network latency and redundancy requirements. The 'provide' process is the bottleneck that optimistic provide addresses.
 
-**Tags**: `#arxiv`, `#open access`, `#academic publishing`, `#infrastructure`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/ipfs/kubo/blob/master/docs/experimental-features.md">kubo/docs/experimental-features.md at master · ipfs /kubo · GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/InterPlanetary_File_System">InterPlanetary File System - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments show mixed reactions: some appreciate the performance improvements, while others question whether calling it 'faster' is misleading since the actual workload is reduced by making parts asynchronous. There is also discussion about IPFS production usage and architectural considerations.
+
+**Tags**: `#IPFS`, `#decentralized storage`, `#performance optimization`, `#distributed systems`, `#DHT`
 
 ---
 
 <a id="item-9"></a>
-## [NVIDIA Boosts DeepSeek V4 Inference, Slashes Token Cost by 5x](https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/) ⭐️ 8.0/10
+## [HNNs from Differential Geometry Perspective](https://www.reddit.com/r/MachineLearning/comments/1ukzdnj/hamiltonian_neural_networks_from_a_differential/) ⭐️ 8.0/10
 
-NVIDIA announced that its inference software stack on Blackwell GPUs has reduced per-token cost for DeepSeek V4 to one-fifth of the previous month, achieving over 11,200 tokens per second per GPU using the SGLang engine. This improvement significantly lowers the cost of deploying large language models, making advanced AI more accessible and potentially accelerating adoption in production environments. The performance leap from about 2,200 to 11,200 tokens/sec/GPU was achieved through kernel fusions, memory compression, quantization, and other optimizations, with potential for up to 20x improvement using future techniques like decomposed serving and multi-token prediction.
+A blog post by a practitioner explains Hamiltonian Neural Networks (HNNs) from a differential geometry viewpoint, emphasizing Noether's theorem to connect symmetries with conservation laws and generalization in machine learning. This perspective offers deeper intuition for physics-informed machine learning, potentially leading to better inductive biases and more data-efficient models that respect physical conservation laws. The post is math-heavy but includes interactive visuals to aid understanding, and it argues that Noether's theorem—which links symmetries to conserved quantities—is underappreciated in the context of physics-informed neural networks.
 
-telegram · zaihuapd · Jul 1, 10:36
+reddit · r/MachineLearning · /u/FlameOfIgnis · Jul 1, 21:55
 
-**Background**: The SGLang engine is an open-source high-performance LLM inference engine widely used in the industry. Its integration with NVIDIA's Blackwell platform and optimizations enable more efficient token generation. Decomposed serving separates prefill and decode stages for better resource utilization.
+**Background**: Hamiltonian Neural Networks are a class of neural networks that learn to model dynamical systems by respecting conservation laws, inspired by Hamiltonian mechanics. Noether's theorem states that every differentiable symmetry of a system's action corresponds to a conserved quantity. Differential geometry provides a framework to study such symmetries and invariants in a coordinate-independent way.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/sgl-project/sglang">GitHub - sgl-project/ sglang : SGLang is a high-performance serving...</a></li>
-<li><a href="https://developer.nvidia.com/blog/deploying-disaggregated-llm-inference-workloads-on-kubernetes/">Deploying Disaggregated LLM Inference Workloads on Kubernetes | NVIDIA Technical Blog</a></li>
+<li><a href="https://arxiv.org/abs/1906.01563">[1906.01563] Hamiltonian Neural Networks</a></li>
+<li><a href="https://greydanus.github.io/2019/05/15/hamiltonian-nns/">Hamiltonian Neural Networks</a></li>
+<li><a href="https://fabianfuchsml.github.io/noether/">Noether's Theorem, Symmetries, and Invariant Neural ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#NVIDIA`, `#DeepSeek V4`, `#inference optimization`, `#Blackwell`, `#AI efficiency`
+**Tags**: `#Hamiltonian Neural Networks`, `#Differential Geometry`, `#Physics-Informed ML`, `#Noether's Theorem`
 
 ---
 
 <a id="item-10"></a>
-## [Visa, Mastercard Lead 140+ Firms in New Stablecoin Network](https://www.reuters.com/business/consortium-including-visa-mastercard-jointly-launch-new-global-stablecoin-2026-06-30/) ⭐️ 8.0/10
+## [arXiv to Become Independent Nonprofit in July 2026](https://www.reddit.com/r/MachineLearning/comments/1ukjtlm/on_july_1_2026_arxiv_will_spin_out_from_cornell/) ⭐️ 8.0/10
 
-Visa, Mastercard, Coinbase, and over 140 other companies announced the formation of the Open Standard consortium on June 30, 2026, to launch an enterprise-friendly stablecoin network and a new U.S. dollar-pegged token called Open USD. This initiative brings together major financial and technology players to create an open, low-cost infrastructure for stablecoin payments, potentially accelerating the adoption of digital dollars for everyday commerce and challenging existing stablecoin leaders like USDC and USDT. Enterprises can mint and redeem Open USD tokens for free and without limits, with reserve yield shared among partners after management fees; the consortium aims to address scalability and cost barriers for business-grade stablecoin use.
+On July 1, 2026, arXiv will spin out from Cornell University to become an independent nonprofit organization, with major funding from Simons Foundation and Schmidt Sciences. This governance transition ensures arXiv's long-term sustainability and independence, safeguarding open access to preprints across machine learning, physics, and other sciences. The spin-out includes a website redesign ('ditching the red') and comes after 25 years of hosting at Cornell. The new structure aims to broaden funding sources and community governance.
 
-telegram · zaihuapd · Jul 1, 11:06
+reddit · r/MachineLearning · /u/Nunki08 · Jul 1, 12:07
 
-**Background**: Stablecoins are cryptocurrencies designed to maintain a stable value by being backed by assets like the U.S. dollar. The GENIUS Act, signed into U.S. law in 2025, provides a federal regulatory framework for payment stablecoins, giving legal clarity that enables initiatives like Open Standard. Currently, most stablecoins are used primarily in crypto trading rather than mainstream payments.
+**Background**: arXiv is a free preprint repository that revolutionized scholarly communication by allowing researchers to share papers before peer review. It has hosted over 2 million preprints and is critical for fast-paced fields like machine learning.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/GENIUS_Act">GENIUS Act - Wikipedia</a></li>
-<li><a href="https://www.spendnode.io/blog/open-usd-stablecoin-circle-falls-stripe-coinbase-blackrock-june-2026/">Circle Drops 8% as Stripe, Coinbase and BlackRock Back Open USD</a></li>
-<li><a href="https://nosmokesport.com/crypto-news/visa-stripe-and-140-firms-launch-open-standard-to-issue-open/">Visa, Stripe, And 140 Firms Launch Open Standard To Issue Open ...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#stablecoin`, `#payments`, `#Visa`, `#Mastercard`, `#cryptocurrency`
+**Tags**: `#arXiv`, `#open access`, `#scientific publishing`, `#infrastructure`
 
 ---
 
 <a id="item-11"></a>
-## [ChatGPT weekly users double to 200 million in under a year](https://t.me/zaihuapd/42298) ⭐️ 8.0/10
+## [Visa, Mastercard Lead 140+ Firms in Open Standard Stablecoin Network](https://www.reuters.com/business/consortium-including-visa-mastercard-jointly-launch-new-global-stablecoin-2026-06-30/) ⭐️ 8.0/10
 
-OpenAI announced that ChatGPT now has over 200 million weekly active users, doubling from 100 million reported in November 2023. Additionally, 92% of Fortune 500 companies use OpenAI products, and API usage has doubled since the launch of the cheaper GPT-4o Mini model. This milestone demonstrates ChatGPT's continued dominance in the AI chatbot market, despite competition from Google, Microsoft, and Meta. The strong enterprise adoption and API growth indicate that OpenAI's products are becoming integral to business operations, solidifying its leadership in generative AI. The GPT-4o Mini model, launched as a more affordable and efficient option, supports text and image inputs with 128K context window and up to 16K output tokens. It costs $0.15 per million input tokens and $0.60 per million output tokens, driving a doubling of API usage.
+Over 140 companies including Visa, Mastercard, and Coinbase jointly launched the Open Standard stablecoin network on June 30, 2026. They plan to issue a new U.S.-dollar pegged stablecoin called Open USD later this year. This consortium of major financial and crypto firms signals a significant step toward enterprise adoption of stablecoins for global payments. Open Standard's open infrastructure could lower barriers and accelerate the use of stablecoins beyond cryptocurrency trading into everyday commerce. Enterprises can mint and redeem Open USD for free and without limits, with reserve yields shared among partners after management fees. The network aims to resolve obstacles to enterprise-scale stablecoin adoption by providing open, low-cost, high-throughput infrastructure.
+
+telegram · zaihuapd · Jul 1, 11:06
+
+**Background**: Stablecoins are cryptocurrencies designed to maintain a stable value, typically pegged to a fiat currency like the U.S. dollar. They have primarily been used for crypto trading, not everyday payments. The GENIUS Act, signed into U.S. law in July 2025, established the first federal regulatory framework for payment stablecoins, providing clearer guidelines for their issuance and use.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://neworleanscitybusiness.com/blog/2026/06/30/visa-mastercard-global-stablecoin-open-usd/">Visa, Mastercard launch global stablecoin ... | New Orleans CityBusiness</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GENIUS_Act">GENIUS Act - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#stablecoins`, `#payments`, `#crypto-finance`, `#Visa`, `#Mastercard`
+
+---
+
+<a id="item-12"></a>
+## [ChatGPT doubles to 200M weekly users in under a year](https://t.me/zaihuapd/42298) ⭐️ 8.0/10
+
+OpenAI announced that ChatGPT now has over 200 million weekly active users, doubling from 100 million in November 2023, driven by the launch of the cost-efficient GPT-4o Mini model. This milestone underscores OpenAI's continued dominance in the consumer AI market despite competition from Google, Microsoft, and Meta, and signals strong enterprise adoption with 92% of Fortune 500 companies using OpenAI products. API usage doubled after the release of GPT-4o Mini, a small model that costs $0.15 per million input tokens and $0.60 per million output tokens, with a 128K token context window and knowledge up to October 2023.
 
 telegram · zaihuapd · Jul 1, 13:01
 
-**Background**: ChatGPT, launched by OpenAI in late 2022, is a conversational AI chatbot that quickly gained popularity. The company has been iterating on models, with GPT-4o Mini being a smaller, faster, and cheaper version of GPT-4 Omni, designed for tasks needing efficiency. The reported growth comes amid increasing competition and rumors of new investment from Apple and Nvidia.
+**Background**: ChatGPT is a conversational AI chatbot built on OpenAI's GPT large language models. GPT-4o Mini is a smaller, faster, cheaper variant that accepts text and image inputs and produces text outputs, designed for focused tasks and cost-sensitive applications.
 
 <details><summary>References</summary>
 <ul>
@@ -241,6 +256,6 @@ telegram · zaihuapd · Jul 1, 13:01
 </ul>
 </details>
 
-**Tags**: `#ChatGPT`, `#OpenAI`, `#AI adoption`, `#user growth`
+**Tags**: `#ChatGPT`, `#OpenAI`, `#AI adoption`, `#user growth`, `#API usage`
 
 ---
