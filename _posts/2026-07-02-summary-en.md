@@ -5,225 +5,236 @@ date: 2026-07-02
 lang: en
 ---
 
-> From 65 items, 11 important content pieces were selected
+> From 57 items, 10 important content pieces were selected
 
 ---
 
-1. [First Synthetic Cell That Grows and Divides Built from Scratch](#item-1) ⭐️ 9.0/10
-2. [Sony to end physical disc production for new PlayStation games by 2028](#item-2) ⭐️ 9.0/10
-3. [Box3D: Open Source 3D Physics Engine Announced](#item-3) ⭐️ 9.0/10
-4. [Visa, Mastercard, and 140+ Firms Launch Open Standard Stablecoin Network](#item-4) ⭐️ 9.0/10
-5. [FFmpeg 9.1 Introduces New AAC Encoder](#item-5) ⭐️ 8.0/10
-6. [Cloudflare Introduces Monetization Gateway Using HTTP 402 for Microtransactions](#item-6) ⭐️ 8.0/10
-7. [arXiv to Become Independent Nonprofit in 2026](#item-7) ⭐️ 8.0/10
-8. [MOTHRAG: Graph-Free Multi-Hop RAG Beats Graph-Based Systems](#item-8) ⭐️ 8.0/10
-9. [OpenAI Proposes Giving US Government 5% Stake](#item-9) ⭐️ 8.0/10
-10. [NVIDIA Cuts DeepSeek V4 Token Cost 5x on Blackwell](#item-10) ⭐️ 8.0/10
-11. [Alibaba & Payment Firm Pay $600M to Settle US Probe](#item-11) ⭐️ 8.0/10
+1. [ECTC 2026 Roundup: EMIB-T, HBM4, Photonic Interconnects, and Cooling](#item-1) ⭐️ 9.0/10
+2. [Virginia Bans Sale of Geolocation Data](#item-2) ⭐️ 8.0/10
+3. [Linux 6.9 Bug: LUKS Suspend Fails to Wipe Encryption Keys](#item-3) ⭐️ 8.0/10
+4. [Podman v6.0.0 Release Boosts Networking](#item-4) ⭐️ 8.0/10
+5. [Using DSPy to Optimize Datasette Agent's SQL Prompts](#item-5) ⭐️ 8.0/10
+6. [Understand to Participate: Avoiding Cognitive Debt with AI Coding Agents](#item-6) ⭐️ 8.0/10
+7. [Cloudflare to Block Mixed-Purpose AI Crawlers from September](#item-7) ⭐️ 8.0/10
+8. [OpenAI Proposes U.S. Government Stake in AI Companies](#item-8) ⭐️ 8.0/10
+9. [Companies Restrict AI Tools as Costs Soar](#item-9) ⭐️ 8.0/10
+10. [PS3 Store Shutdown in 2027 Spurs Archival Effort](#item-10) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [First Synthetic Cell That Grows and Divides Built from Scratch](https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/) ⭐️ 9.0/10
+## [ECTC 2026 Roundup: EMIB-T, HBM4, Photonic Interconnects, and Cooling](https://newsletter.semianalysis.com/p/ectc2026) ⭐️ 9.0/10
 
-Researchers led by Kate Adamala at the University of Minnesota have created SpudCell, the first synthetic cell built entirely from non-living chemical components that can grow, replicate its DNA, and divide, completing the full cell cycle. This breakthrough represents a major milestone in synthetic biology, bringing us closer to designing custom organisms that function like living machines, with potential applications in medicine, industry, and environmental science. SpudCell uses a droplet-based architecture without a cytoskeleton; it grows by fusing with other droplets and divides by mechanical splitting. The work was posted online and submitted for publication, but faced initial rejection from Cell journal.
+A roundup from ECTC 2026 covers Intel's EMIB-T advanced packaging for HBM4, challenges in HBM4 integration, microfluidic cooling, and photonic interconnects from companies like Lightmatter. These technologies address critical bottlenecks in AI and HPC computing, such as memory bandwidth, thermal management, and interconnect efficiency, shaping the future of chip design. Intel's EMIB-T scales to large form factors with reduced defect vulnerability, while HBM4 raises I/O density and power delivery demands. Microfluidic cooling and photonic interconnects offer novel solutions for heat dissipation and data transmission.
 
-hackernews · defrost · Jul 1, 14:20 · [Discussion](https://news.ycombinator.com/item?id=48747304)
+rss · Semianalysis · Jul 2, 17:25
 
-**Background**: Synthetic biology aims to build artificial cells from simple chemical components to better understand the principles of life. Previous attempts could grow or replicate DNA, but cell division remained a major hurdle because natural cells use a complex cytoskeleton. Adamala's team circumvented this by designing a cell without a cytoskeleton, using a different mechanism for division.
+**Background**: EMIB (Embedded Multi-die Interconnect Bridge) is Intel's technology for connecting multiple dies in a package. HBM (High Bandwidth Memory) stacks DRAM vertically for high bandwidth. Photonic interconnects use light instead of electrons for faster, lower-power data transfer. Advanced packaging integrates these components to overcome performance limits of traditional chips.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.science.org/content/article/lab-created-spudcell-marks-major-step-toward-building-life-scratch">Lab-created ‘SpudCell’ marks ‘stunning’ step toward building life from scratch | Science | AAAS</a></li>
-<li><a href="https://www.theguardian.com/science/2026/jul/01/synthetic-life-lab-made-dna-spudcells-scientists">‘Beautiful blobs’: synthetic life a step closer as scientists make cells using lab-made DNA | Science | The Guardian</a></li>
-<li><a href="https://twin-cities.umn.edu/news-events/worlds-first-synthetic-cell-complete-life-cycle-could-revolutionize-biological">World’s first synthetic cell with a complete life cycle could revolutionize biological engineering | University of Minnesota</a></li>
+<li><a href="https://abit.ee/en/hard/intel-introduces-emib-t-revolutionary-multi-die-packaging-technology-with-hbm4-support">Intel Introduces EMIB - T — Revolutionary Multi-Die Packaging...</a></li>
+<li><a href="https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/">HBM3e and HBM4: IC design guide for next-generation high bandwidth memory</a></li>
+<li><a href="https://www.sciencedirect.com/topics/engineering/photonic-interconnects">Photonic Interconnects - an overview | ScienceDirect Topics</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion shows mixed reactions: some researchers praise the achievement as a milestone, while others criticize the process—such as bypassing peer review by releasing the manuscript to journalists before uploading to bioRxiv. Some commenters note the prior work of Kate Adamala and express cautious optimism.
-
-**Tags**: `#synthetic biology`, `#synthetic cells`, `#biology`, `#research`, `#breakthrough`
+**Tags**: `#semiconductor`, `#advanced packaging`, `#HBM`, `#photonic interconnects`, `#cooling`
 
 ---
 
 <a id="item-2"></a>
-## [Sony to end physical disc production for new PlayStation games by 2028](https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/) ⭐️ 9.0/10
+## [Virginia Bans Sale of Geolocation Data](https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data) ⭐️ 8.0/10
 
-Sony has announced that physical disc production for new PlayStation games will cease in January 2028, marking a complete transition to digital-only distribution for upcoming titles. This decision signals a major shift in the gaming industry, affecting digital ownership, game preservation, and consumer rights. Players fear losing the ability to own, resell, or access games long-term in an increasingly DRM-locked digital ecosystem. The announcement follows Sony's recent removal of hundreds of purchased digital movies from customer libraries without refund, intensifying distrust around digital ownership. Physical discs have allowed players to buy, sell, and preserve games independently, a capability that digital-only distribution eliminates.
+Virginia has banned the sale of geolocation data, effective July 1, 2024, through a new state privacy law. This legislation sets an important precedent for state-level privacy protections, potentially influencing other states to adopt similar measures and giving consumers more control over their sensitive location data. The ban applies to the sale of geolocation data collected from individuals within Virginia, but enforcement challenges remain regarding out-of-state companies and data processed in Virginia data centers.
 
-hackernews · Tiberium · Jul 1, 12:13 · [Discussion](https://news.ycombinator.com/item?id=48745456)
+hackernews · toomuchtodo · Jul 2, 21:03 · [Discussion](https://news.ycombinator.com/item?id=48767347)
 
-**Background**: Sony's PlayStation consoles have traditionally supported both physical discs and digital downloads. However, the industry has been gradually moving toward digital distribution, with Microsoft's Xbox also offering a disc-less model. The end of physical disc production means new games will only be available through the PlayStation Store, raising concerns about long-term access and ownership.
+**Background**: Geolocation data reveals a person's precise whereabouts and is increasingly collected by apps and devices. Concerns about misuse, such as tracking visits to sensitive locations like abortion clinics or use by insurance companies, have driven calls for regulation. Virginia's law is part of a broader trend of U.S. states enacting privacy protections in the absence of a comprehensive federal law.
 
-**Discussion**: The community discussion shows strong opposition, with users citing Sony's recent deletion of purchased movies as proof that digital 'purchases' are actually rentals. Commenters argue that physical media preserves gaming history and allows cheaper access, and worry that the loss of Blu-ray sales will hurt movie disc production as well. Some say this will end their interest in gaming if Nintendo and Microsoft follow suit.
+**Discussion**: Comments generally support the ban but highlight enforcement difficulties and loopholes, such as out-of-state companies selling data collected in Virginia. Specific concerns include use of location data for anti-abortion ads (citing a Politico investigation) and car insurance tracking. The discussion also notes that the ban was effective July 1, 2024.
 
-**Tags**: `#gaming`, `#digital ownership`, `#PlayStation`, `#physical media`, `#content preservation`
+**Tags**: `#privacy`, `#geolocation data`, `#legislation`, `#Virginia`, `#data protection`
 
 ---
 
 <a id="item-3"></a>
-## [Box3D: Open Source 3D Physics Engine Announced](https://box2d.org/posts/2026/06/announcing-box3d/) ⭐️ 9.0/10
+## [Linux 6.9 Bug: LUKS Suspend Fails to Wipe Encryption Keys](https://mathstodon.xyz/@iblech/116769502749142438) ⭐️ 8.0/10
 
-Erin Catto, creator of Box2D, announced Box3D, a new open source 3D physics engine. The project builds on the legacy of Box2D to bring robust rigid body simulation to 3D. Box3D could become a standard tool for game development and machine learning benchmarks, similar to how Box2D underpins many RL environments. Its open source nature encourages widespread adoption and community contributions. The announcement does not specify determinism, a feature desired for networked games. Physics simulation involves challenges like collision detection, convex approximations, and solver tuning.
+A regression in Linux kernel 6.9 causes the `cryptsetup luksSuspend` command to no longer wipe disk-encryption keys from kernel memory, potentially exposing them during system suspend. This security regression undermines protection against cold boot attacks that rely on removing encryption keys from memory during suspend. It affects users who rely on LUKS encryption and suspend-to-RAM, particularly on Debian where the feature is integrated. The bug was introduced in Linux 6.9, and the `luksSuspend` command normally wipes the encryption key from kernel memory before suspending I/O. The community discovered it via NixOS tests, which now include a test to prevent recurrence.
 
-hackernews · makepanic · Jul 1, 12:12 · [Discussion](https://news.ycombinator.com/item?id=48745445)
+hackernews · IngoBlechschmid · Jul 2, 15:25 · [Discussion](https://news.ycombinator.com/item?id=48763035)
 
-**Background**: Box2D is a widely-used 2D physics engine that powered games like Angry Birds and is included in OpenAI Gym's reinforcement learning environments. A 3D version extends these capabilities to three dimensions, enabling more complex simulations.
+**Background**: LUKS (Linux Unified Key Setup) is a disk encryption specification. When a system suspends to RAM, the encryption master key remains in kernel memory to allow quick resume. To mitigate cold boot attacks, `cryptsetup luksSuspend` can evict the key before suspend and require re-entry on resume. This regression broke that key eviction.
 
-**Discussion**: Commenters expressed excitement, noting Box2D's impact on indie games and ML research. They raised concerns about determinism for multiplayer and highlighted ongoing technical challenges in physics simulation.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/systemd/systemd/issues/17887">Wipe LUKS Disk Encryption Key for Root Disk from RAM during Shutdown to defeat Cold Boot Attacks · Issue #17887 · systemd/systemd</a></li>
+<li><a href="https://blog.freesources.org/posts/2020/08/cryptsetup-suspend/">cryptsetup- suspend</a></li>
+<li><a href="https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate">Power management/ Suspend and hibernate - ArchWiki</a></li>
 
-**Tags**: `#physics engine`, `#open source`, `#game development`, `#machine learning`, `#Box2D`
+</ul>
+</details>
+
+**Discussion**: Comments noted that the bug might only affect Debian since `luksSuspend` is not officially supported upstream. Some argued the title was clickbait, while others appreciated the NixOS test. A commenter pointed out that security regressions like this are easy to miss because everything still appears to work.
+
+**Tags**: `#Linux`, `#security`, `#encryption`, `#kernel`, `#LUKS`
 
 ---
 
 <a id="item-4"></a>
-## [Visa, Mastercard, and 140+ Firms Launch Open Standard Stablecoin Network](https://www.reuters.com/business/consortium-including-visa-mastercard-jointly-launch-new-global-stablecoin-2026-06-30/) ⭐️ 9.0/10
+## [Podman v6.0.0 Release Boosts Networking](https://blog.podman.io/2026/07/introducing-podman-v6-0-0/) ⭐️ 8.0/10
 
-On June 30, 2026, a consortium of over 140 companies including Visa, Mastercard, and Coinbase launched the Open Standard stablecoin network, which will issue the Open USD stablecoin later this year. The network allows free and unlimited minting and redemption of the token, with reserve yields shared among partners. Open Standard addresses key barriers to enterprise stablecoin adoption by offering an open, low-cost, and high-throughput infrastructure, potentially driving digital payments into mainstream commerce. This consortium model shifts competition from owning the largest token to building the largest financial network, and is supported by the recent U.S. GENIUS Act providing a federal regulatory framework. The Open Standard is governed by an independent entity called Open Standard, and the Open USD stablecoin will be launched on the Solana blockchain. The reserve yields, after management fees, are distributed among the consortium partners, replacing issuer-controlled economics with shared ownership.
+Podman v6.0.0 has been released with significant networking improvements, further strengthening its position as a Docker alternative. The update includes enhanced network stack performance and continued support for rootless containers and Quadlet. This release underscores Podman's growing maturity and adoption as a secure, daemonless container engine. With high community engagement on Hacker News, it signals increasing trust in Podman for production workloads. Podman v6.0.0 introduces new networking features that improve performance and ease of use, while maintaining compatibility with Docker CLI and docker-compose. However, some users report minor incompatibilities that can cause issues in complex setups.
 
-telegram · zaihuapd · Jul 1, 11:06
+hackernews · soheilpro · Jul 2, 14:23 · [Discussion](https://news.ycombinator.com/item?id=48762098)
 
-**Background**: Stablecoins are cryptocurrencies designed to maintain a stable value by being backed by reserve assets like fiat currency. They have been predominantly used for crypto trading rather than everyday payments, partly due to a lack of enterprise-grade infrastructure. The GENIUS Act, signed into U.S. law in 2025, established the first federal regulatory framework for payment stablecoins, providing legal clarity for such initiatives.
+**Background**: Podman is an open-source, OCI-compliant container engine developed by Red Hat. Unlike Docker, it is daemonless and supports rootless containers by default, enhancing security. It integrates well with systemd and can be used as a drop-in replacement for Docker in many scenarios.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://joinopenstandard.com/">Open USD (OUSD) Stablecoin | Open Standard</a></li>
-<li><a href="https://www.pymnts.com/cryptocurrency/2026/open-usd-just-turned-the-stablecoin-race-into-an-ecosystem-battle/">Open USD Just Turned the Stablecoin Race Into an Ecosystem Contest | PYMNTS.com</a></li>
-<li><a href="https://en.wikipedia.org/wiki/GENIUS_Act">GENIUS Act - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Podman">Podman - Wikipedia</a></li>
+<li><a href="https://podman.io/">Podman</a></li>
+<li><a href="https://www.redhat.com/en/topics/containers/what-is-podman">What is Podman?</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#stablecoins`, `#payments`, `#blockchain`, `#fintech`, `#regulation`
+**Discussion**: Community sentiment is largely positive, with users praising Podman's ease of migration and performance. Some users express frustration over minor Docker incompatibilities, while others highlight the benefits of rootless operation and systemd integration.
+
+**Tags**: `#Podman`, `#containerization`, `#Docker alternative`, `#open source`, `#release`
 
 ---
 
 <a id="item-5"></a>
-## [FFmpeg 9.1 Introduces New AAC Encoder](https://hydrogenaudio.org/index.php/topic,129691.0.html) ⭐️ 8.0/10
+## [Using DSPy to Optimize Datasette Agent's SQL Prompts](https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything) ⭐️ 8.0/10
 
-FFmpeg 9.1 includes a new AAC encoder that improves audio quality over the previous encoder, but currently only supports constant bitrate (CBR) encoding and is optimized for 48 kHz sampling rate. This update addresses a long-standing weakness in FFmpeg's AAC encoding, which often produced poor quality and chirping artifacts. Better AAC encoding is valuable for compatibility and standardization across many platforms. The new encoder is CBR-only and mainly optimized for 48 kHz audio, meaning quality-based variable bitrate (VBR) encoding is not yet supported, and 44.1 kHz (common for CDs) may not achieve the best quality. The encoder also works around a stereo PNS bug found in FFmpeg's AAC decoder.
+Simon Willison used the DSPy framework to automatically evaluate and improve the system prompts for Datasette Agent's SQL query generation feature, identifying and fixing issues like column-name guessing due to incomplete schema information. This demonstrates a practical, automated approach to prompt engineering that can enhance the reliability and accuracy of AI agents that generate SQL. It shows how frameworks like DSPy can be leveraged to systematically improve agent behavior without manual trial and error. The experiment used Claude Code (with the Fable 5 model) to set up the evaluation pipeline, and tested with GPT-4.1 mini and nano models. One key finding was that the original prompt's advice to avoid unnecessary schema lookups caused the agent to guess column names, leading to errors.
 
-hackernews · ledoge · Jul 1, 14:10 · [Discussion](https://news.ycombinator.com/item?id=48747116)
+rss · Simon Willison · Jul 2, 18:25
 
-**Background**: AAC (Advanced Audio Coding) is a widely used lossy audio compression format, commonly used in streaming, Apple products, and as the default audio codec for MP4 video. Constant bitrate (CBR) encoding maintains a fixed data rate, while variable bitrate (VBR) adjusts the rate based on audio complexity. FFmpeg's previous AAC encoder was known for poor quality and artifacts, leading many users to rely on alternatives like Apple's Core Audio encoder.
+**Background**: DSPy is a Python framework for algorithmically optimizing prompts and weights of language models, treating prompt engineering as a programming task. Datasette Agent is an open-source AI assistant plugin for Datasette that allows users to query SQLite databases using natural language. Claude Code is an AI coding agent developed by Anthropic that can read codebases, edit files, and run commands.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Constant_bitrate">Constant bitrate - Wikipedia</a></li>
-<li><a href="https://restream.io/learn/what-is/aac-audio/">What Is AAC Audio ? | Restream Learn</a></li>
+<li><a href="https://github.com/stanfordnlp/dspy">GitHub - stanfordnlp/dspy: DSPy: The framework for programming—not prompting—language models</a></li>
+<li><a href="https://datasette.io/blog/2026/datasette-agent/">Datasette Agent, an extensible AI assistant for Datasette - Datasette Blog</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Code">Claude Code</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community members noted that Opus still outperforms all AAC encoders in benchmarks, and praised the new encoder but highlighted its limitations: CBR-only and 48 kHz optimization. Some questioned whether 48 kHz has become the standard, while others appreciated the workaround for the stereo PNS bug.
-
-**Tags**: `#FFmpeg`, `#AAC`, `#audio encoding`, `#codec`, `#multimedia`
+**Tags**: `#DSPy`, `#prompt engineering`, `#AI agents`, `#SQL generation`, `#Datasette`
 
 ---
 
 <a id="item-6"></a>
-## [Cloudflare Introduces Monetization Gateway Using HTTP 402 for Microtransactions](https://blog.cloudflare.com/monetization-gateway/) ⭐️ 8.0/10
+## [Understand to Participate: Avoiding Cognitive Debt with AI Coding Agents](https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything) ⭐️ 8.0/10
 
-Cloudflare announced the Monetization Gateway, which uses the HTTP 402 status code and the x402 protocol to allow operators to charge for any resource behind Cloudflare, enabling microtransactions for APIs, content, and more. This monetization approach could transform web economics by enabling seamless pay-per-use for AI agents and bots, addressing rising bot traffic costs while creating new revenue streams for content creators and API providers. The Monetization Gateway is built on the open x402 protocol, with Cloudflare handling payment processing and supporting stablecoins like USDC via partnerships such as Coinbase; however, legal invoicing and scalability for small operators remain open challenges.
+Geoffrey Litt introduced the 'understand to participate' framing during his talk at AIE 2026, emphasizing that developers must deeply understand code produced by AI agents to remain active participants and avoid cognitive debt. This concept helps developers maintain code quality and accurate mental models when using AI coding agents, preventing the buildup of cognitive debt that can hinder long-term project health and evolution. The talk was part of AIE 2026, which had over 300 recorded sessions; Geoffrey also published a Twitter thread summarizing his talk, and the full video will be released on YouTube over the following three weeks.
 
-hackernews · soheilpro · Jul 1, 13:59 · [Discussion](https://news.ycombinator.com/item?id=48746914)
+rss · Simon Willison · Jul 2, 17:07
 
-**Background**: HTTP 402 (Payment Required) is an experimental status code that was reserved for future use but rarely implemented. The x402 protocol, launched with Coinbase in December 2025, standardizes payment requests and verification over HTTP. Cloudflare's Monetization Gateway is the first major adoption, allowing servers to respond with a 402 status containing payment details, and clients to pay using crypto wallets.
+**Background**: Cognitive debt is an emerging term describing the erosion of shared understanding in a software team, especially when AI agents generate code that developers do not fully comprehend. Unlike technical debt, which is about code quality, cognitive debt affects developers' ability to reason about and safely change the system, leading to increased uncertainty and slowed progress.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://blog.cloudflare.com/x402/">Launching the x402 Foundation with Coinbase, and support for x402 transactions</a></li>
-<li><a href="https://developers.cloudflare.com/agents/x402/">x402 · Cloudflare Agents docs</a></li>
-<li><a href="https://kinsta.com/blog/http-402/">What Is the HTTP 402 Status Code ?</a></li>
+<li><a href="https://margaretstorey.com/blog/2026/02/09/cognitive-debt/">How Generative and Agentic AI Shift Concern from Technical Debt to Cognitive Debt</a></li>
+<li><a href="https://getdx.com/blog/cognitive-debt-the-hidden-risk-in-ai-driven-software-development/">Cognitive debt: The hidden risk in AI-driven software development</a></li>
+<li><a href="https://www.faros.ai/blog/best-ai-coding-agents-2026">Best AI Coding Agents for 2026: Real-World Developer Reviews</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community reactions are mixed: many are excited about the potential for agent-driven microtransactions, but concerns include legal invoicing challenges, spam abuse, and the difficulty of preserving free human experiences amidst rising bot traffic.
-
-**Tags**: `#cloudflare`, `#monetization`, `#microtransactions`, `#api`, `#http402`
+**Tags**: `#AI-assisted coding`, `#cognitive debt`, `#collaboration`, `#software engineering`, `#developer tools`
 
 ---
 
 <a id="item-7"></a>
-## [arXiv to Become Independent Nonprofit in 2026](https://www.reddit.com/r/MachineLearning/comments/1ukjtlm/on_july_1_2026_arxiv_will_spin_out_from_cornell/) ⭐️ 8.0/10
+## [Cloudflare to Block Mixed-Purpose AI Crawlers from September](https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/) ⭐️ 8.0/10
 
-On July 1, 2026, arXiv will spin out from Cornell University to become an independent nonprofit organization, with major funding from Simons Foundation and Schmidt Sciences. The website is also changing its color scheme from red to a new design. This structural change is significant for the research community, especially in machine learning and AI, as arXiv is a critical platform for open access preprint dissemination. Independence may enable more agile governance and long-term sustainability. The spin-out is effective July 1, 2026, after 25 years at Cornell. The Simons Foundation and Schmidt Sciences are providing major funding support. The website is 'ditching the red' for a new look.
+Cloudflare announced that starting September 15, it will by default block 'mixed-purpose' crawlers that are used for both search indexing and AI training from accessing ad-supported pages. The company specifically called out Google for exploiting the gap between allowing search indexing and blocking AI training. This policy shift could force AI companies to negotiate payment for using publisher content, potentially reshaping the economics of web scraping and AI training. It highlights growing tensions between content creators and AI firms over data usage rights. The new rule applies to crawlers that serve both search indexing and AI training purposes, such as Google's crawler which may index for search while also training its AI models. Cloudflare's move comes amid broader industry debates over fair compensation for content used in AI systems.
 
-reddit · r/MachineLearning · /u/Nunki08 · Jul 1, 12:07
+telegram · zaihuapd · Jul 2, 05:37
 
-**Background**: arXiv is a preprint repository founded in 1991, essential for rapid dissemination of research in physics, mathematics, computer science, and related fields. It has been hosted and operated by Cornell University since 2001. The transition to an independent nonprofit aims to ensure its long-term future and expand its impact.
+**Background**: Web crawlers are automated programs that scan websites to index content for search engines or collect data for AI training. While search crawlers are generally welcomed by sites to improve visibility, AI training crawlers are often blocked because they extract content without compensation. Mixed-purpose crawlers blur this line, making it hard for websites to differentiate between allowed indexing and unwanted AI training. Cloudflare's new policy attempts to address this by default blocking such crawlers on ad-supported pages.
 
-**Tags**: `#arXiv`, `#research infrastructure`, `#open science`, `#nonprofit`, `#academic publishing`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.zhihu.com/question/24098641">通俗的讲，网络爬虫到底是什么？</a></li>
+<li><a href="https://www.clickfrom.ai/zh/blog/inside-the-ai-mind-how-chatgpt-and-ai-crawlers-see-your-website">进入 AI 的思维：ChatGPT和 AI 爬 虫 如何看待你的网站 — ClickFrom. AI</a></li>
+
+</ul>
+</details>
+
+**Discussion**: A comment on the TechCrunch article summarized the issue: many websites block AI crawlers but not Google's search crawler, and Google exploits this loophole to train its AI. This sentiment reflects widespread frustration with AI companies' data practices.
+
+**Tags**: `#Cloudflare`, `#AI crawlers`, `#Google`, `#web scraping`, `#AI training`
 
 ---
 
 <a id="item-8"></a>
-## [MOTHRAG: Graph-Free Multi-Hop RAG Beats Graph-Based Systems](https://www.reddit.com/r/MachineLearning/comments/1ukotww/p_mothretrieval_graphfree_multihop_retrieval_via/) ⭐️ 8.0/10
+## [OpenAI Proposes U.S. Government Stake in AI Companies](https://www.bloomberg.com/news/articles/2026-07-02/openai-proposes-giving-the-us-government-a-5-stake-ft-says) ⭐️ 8.0/10
 
-Researchers open-sourced MOTHRAG, a multi-hop retrieval-augmented generation (RAG) framework that uses a graph-free dense index and query-time orchestration, outperforming graph-based systems like GraphRAG, HippoRAG, and RAPTOR on HotpotQA, 2WikiMultiHopQA, and MuSiQue benchmarks. This matters because it avoids the costly offline re-indexing required by graph-based RAG systems, making it practical for frequently changing data. It demonstrates that a simpler, graph-free approach can match or exceed graph-based accuracy at a fraction of the cost. MOTHRAG achieves 78.1% accuracy on HotpotQA, beating GraphRAG (68.6%), HippoRAG (75.5%), and RAPTOR (69.5%), at a cost of ~$0.03/query using commodity APIs without GPU. However, it slightly lags behind NeocorRAG on MuSiQue (50.5 vs 52.6) due to retrieval recall bottlenecks.
+OpenAI has proposed that the U.S. government take a 5% equity stake in the company and potentially in other leading AI firms such as Google, Meta, and Anthropic, according to a Financial Times report. The proposal is intended to address political backlash and allow the public to benefit from AI's economic gains. This proposal could reshape AI governance by creating a formal mechanism for public profit-sharing from AI technologies, potentially setting a precedent for government involvement in the tech industry. If adopted, it would give the government a financial stake and possibly influence over major AI companies, raising questions about control and conflicts of interest. The stake would be held by a government carrier, and at OpenAI's current valuation, a 5% stake would be worth approximately $42.6 billion. It remains unclear whether the other companies mentioned have agreed to the proposal, and the plan could face significant regulatory and antitrust scrutiny.
 
-reddit · r/MachineLearning · /u/Annual-Commercial563 · Jul 1, 15:26
+telegram · zaihuapd · Jul 2, 06:02
 
-**Background**: Multi-hop RAG requires reasoning across multiple documents to answer complex questions. Traditional graph-based RAG systems like GraphRAG build a knowledge graph offline, which enables high accuracy but incurs heavy re-indexing costs when data changes. MOTHRAG uses a dense vector index and orchestrates retrieval at query time, avoiding graph construction.
+**Background**: The proposal comes amid growing political pressure on AI companies to address concerns about job displacement, safety, and the concentration of wealth. OpenAI recently became a Public Benefit Corporation (PBC), which legally requires it to consider public interests alongside profits. Other lawmakers, such as Senator Bernie Sanders, have proposed more extensive public ownership models for AI.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/GraphRAG">GraphRAG</a></li>
-<li><a href="https://github.com/OSU-NLP-Group/HippoRAG">GitHub - OSU-NLP-Group/ HippoRAG : [NeurIPS'24] HippoRAG is...</a></li>
-<li><a href="https://hotpotqa.github.io/">HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering</a></li>
+<li><a href="https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html">OpenAI proposes U.S. government own 5% stake to address ...</a></li>
+<li><a href="https://www.forbes.com/sites/siladityaray/2026/07/02/openai-reportedly-pitches-granting-us-government-5-stake/">OpenAI Reportedly Pitches Granting U.S. Government 5% Stake</a></li>
+<li><a href="https://apnews.com/article/bernie-sanders-ai-public-ownership-57b9f20d96490083e2749adba0f13977">Bernie Sanders unveils plan for public ownership of AI ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#RAG`, `#Multi-hop Retrieval`, `#Knowledge Graph`, `#Open-source`, `#Benchmarking`
+**Tags**: `#政策影响`, `#AI治理`, `#大型科技公司`, `#政府持股`
 
 ---
 
 <a id="item-9"></a>
-## [OpenAI Proposes Giving US Government 5% Stake](https://t.me/FinanceNewsDaily/489908) ⭐️ 8.0/10
+## [Companies Restrict AI Tools as Costs Soar](https://www.404media.co/companies-are-throttling-employees-ai-use-because-its-too-expensive/) ⭐️ 8.0/10
 
-OpenAI has proposed offering a 5% equity stake directly to the U.S. government under the Trump administration, according to the Financial Times. This unprecedented move could reshape AI governance by intertwining corporate interests with national security and regulatory objectives, setting a precedent for other AI companies. The equity offer is intended to gain political support and address national security concerns, but the exact terms and conditions of the stake have not been disclosed.
+Citi banned GPT-5.5 and Claude Opus 4.6/4.7 on June 24, 2026, deeming them too expensive. Atlassian's monthly AI spend skyrocketed from $5M to $15M between August 2025 and May 2026, prompting usage caps and cost dashboards. Adobe also ended its unlimited Claude contract. This trend reveals that enterprise AI adoption faces serious cost sustainability issues under usage-based pricing. It may slow AI integration and prompt a shift in pricing models or internal usage policies across industries. Internal data from 404 Media shows that advanced models like GPT-5.5 and Claude Opus 4.6 consume AI credits much faster than standard models. Atlassian's cost dashboard revealed that 20% of employees were using AI excessively, driving the spending surge.
 
-telegram · FinanceNewsDaily · Jul 2, 04:10
+telegram · zaihuapd · Jul 2, 13:59
 
-**Background**: OpenAI, the creator of ChatGPT, is a leading AI research organization that transitioned from a non-profit to a capped-profit model. The U.S. government has been increasingly involved in AI regulation and national security assessments, making this proposal a strategic move to align with policy goals.
-
-**Tags**: `#OpenAI`, `#AI regulation`, `#US government`, `#corporate governance`, `#AI policy`
-
----
-
-<a id="item-10"></a>
-## [NVIDIA Cuts DeepSeek V4 Token Cost 5x on Blackwell](https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/) ⭐️ 8.0/10
-
-NVIDIA's inference software stack achieves a 5x reduction in per-token cost for DeepSeek V4 on the Blackwell platform within one month, boosting throughput from ~2,200 to ~11,200 tokens/sec/GPU using the SGLang engine. This dramatic improvement in inference efficiency makes large model deployment more economical, potentially accelerating adoption of DeepSeek V4 and similar models in production environments. It also showcases the rapid optimization potential of the Blackwell ecosystem. Key optimizations include fusion techniques, memory compression, quantization precision paths, improved memory budgeting, interruptible computation graphs, and inference stability fixes. Future advanced optimizations like disaggregated serving and multi-token prediction could further boost throughput up to 20x.
-
-telegram · zaihuapd · Jul 1, 10:36
-
-**Background**: The Blackwell architecture is NVIDIA's latest GPU platform designed for generative AI, featuring two dies connected by a 10 TB/s interconnect and second-generation Transformer Engine. SGLang is an open-source high-performance serving framework for LLMs, supporting optimizations like Tensor Parallelism and Radix Cache. Disaggregated serving separates prefill and decode phases to improve resource utilization.
+**Background**: GPT-5.5, released by OpenAI on April 23, 2026, is its most capable model but comes with higher token pricing—prompts over 272K tokens cost double the input rate. Claude Opus 4.6, released by Anthropic on February 5, 2026, is similarly expensive. Many enterprises now use AI credits or tokens for billing, where each interaction consumes credits based on model and token count.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Blackwell_(microarchitecture)">Blackwell (microarchitecture) - Wikipedia</a></li>
-<li><a href="https://github.com/sgl-project/sglang">GitHub - sgl-project/sglang: SGLang is a high-performance serving framework for large language models and multimodal models. · GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GPT-5.5">GPT-5.5 - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Opus_4.6">Claude Opus 4.6</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#NVIDIA`, `#DeepSeek`, `#inference optimization`, `#GPU`, `#AI infrastructure`
+**Tags**: `#AI`, `#cost management`, `#enterprise`, `#OpenAI`, `#Claude`
 
 ---
 
-<a id="item-11"></a>
-## [Alibaba & Payment Firm Pay $600M to Settle US Probe](https://www.bloomberg.com/news/articles/2026-07-01/alibiba-payment-firm-will-pay-600-million-to-resolve-us-probe) ⭐️ 8.0/10
+<a id="item-10"></a>
+## [PS3 Store Shutdown in 2027 Spurs Archival Effort](http://no-intro.org/) ⭐️ 8.0/10
 
-Alibaba and its US payment partner, AUS Merchant Services, agreed to pay a combined $600 million to resolve a US Department of Justice investigation into illegal drug and pharmaceutical equipment sales occurring between 2016 and 2024. This high-profile settlement underscores the increasing enforcement of US laws against foreign companies, particularly in areas of drug trafficking and money laundering compliance, and signals potential reputational and operational risks for global tech firms. The settlement involves deferred prosecution agreements for both companies, requiring enhanced compliance measures. AUS Merchant Services admitted its anti-money laundering system failed to block merchants from completing approximately 80,000 illegal transactions.
+Sony announced the permanent closure of the PS3 and PS Vita PlayStation Stores in July 2027, prompting digital archivists and the RPCS3 emulator team to urgently backup game data to prevent permanent loss of digital-only titles. This closure threatens the preservation of hundreds of digital-only PS3 and PS Vita games, highlighting the fragility of digital game ownership and the need for community-led preservation efforts. RPCS3 recommends using the no-intro.org database, which catalogs metadata like cryptographic hashes and file sizes, to coordinate backup efforts and track which games have been preserved.
 
-telegram · zaihuapd · Jul 2, 02:02
+telegram · zaihuapd · Jul 2, 15:04
 
-**Background**: The US Department of Justice has been intensifying scrutiny of online platforms and payment processors used for illicit drug sales. Deferred prosecution agreements allow companies to avoid criminal charges by meeting certain conditions, such as paying fines and improving compliance programs.
+**Background**: The PlayStation 3 and PS Vita stores are digital marketplaces for downloading games. With the store closure, users will no longer be able to purchase or re-download digital content. RPCS3 is an open-source PS3 emulator that allows playing PS3 games on PC, and no-intro.org is a community-driven database for game preservation.
 
-**Tags**: `#Alibaba`, `#regulatory`, `#settlement`, `#compliance`, `#finance`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://rpcs3.net/">RPCS3</a></li>
+<li><a href="https://no-intro.org/">No - Intro . org</a></li>
+<li><a href="https://www.tomshardware.com/video-games/playstation/digital-archivists-rush-to-save-ps3-game-data-before-sony-shuts-down-the-store-forever-in-2027-rpcs3-emulator-urges-users-to-preserve-all-content">Digital archivists rush to save PS3 game data before... | Tom's Hardware</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#digital preservation`, `#PlayStation`, `#game emulation`, `#digital rights`
 
 ---
