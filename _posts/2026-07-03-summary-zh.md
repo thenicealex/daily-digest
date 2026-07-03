@@ -5,333 +5,273 @@ date: 2026-07-03
 lang: zh
 ---
 
-> 从 68 条内容中筛选出 14 条重要资讯。
+> 从 74 条内容中筛选出 12 条重要资讯。
 
 ---
 
-1. [crustc：将整个 Rust 编译器翻译成 C](#item-1) ⭐️ 9.0/10
-2. [美国商务部长禁止人口普查中的差分隐私](#item-2) ⭐️ 9.0/10
-3. [ECTC 2026：EMIB-T、定制 HBM、HBM4、微流冷却与光子互连](#item-3) ⭐️ 9.0/10
-4. [讽刺创业烤箱故事揭示产品开发失败教训](#item-4) ⭐️ 8.0/10
-5. [本地智能权利运动倡导本地 AI 运行权](#item-5) ⭐️ 8.0/10
-6. [Linux 6.9 中 LUKS 挂起操作的安全回归](#item-6) ⭐️ 8.0/10
-7. [阿里巴巴因后门风险禁止 Claude Code](#item-7) ⭐️ 8.0/10
-8. [Podman v6.0.0 发布，集成 Quadlet](#item-8) ⭐️ 8.0/10
-9. [Immich 3.0 重大版本发布](#item-9) ⭐️ 8.0/10
-10. [Postgres 事务：分布式系统超能力](#item-10) ⭐️ 8.0/10
-11. [Meta 拥抱面向 AI 计算的 Neocloud 模式](#item-11) ⭐️ 8.0/10
-12. [Google Gemini Omni Flash 登顶 Video Arena 排行榜](#item-12) ⭐️ 8.0/10
-13. [Anthropic 指控阿里巴巴发动大规模模型蒸馏攻击](#item-13) ⭐️ 8.0/10
-14. [中国新规草案：账号休眠注销、AI 标识与个性化推荐关闭](#item-14) ⭐️ 8.0/10
+1. [欧洲议会间谍调查员遭飞马间谍软件攻击](#item-1) ⭐️ 8.0/10
+2. [本地运行顶级大型语言模型指南](#item-2) ⭐️ 8.0/10
+3. [Wordgard：ProseMirror 创建者推出的新富文本编辑器](#item-3) ⭐️ 8.0/10
+4. [将代码转为图片降低 LLM 成本 60%的新工具](#item-4) ⭐️ 8.0/10
+5. [对 MVP 误用和创始人动机的批判](#item-5) ⭐️ 8.0/10
+6. [CDD 仅从 logits 恢复微调逐字数据](#item-6) ⭐️ 8.0/10
+7. [国家金融监管总局接管众邦银行因信用风险](#item-7) ⭐️ 8.0/10
+8. [Anthropic 指控阿里巴巴对 Claude 发动大规模蒸馏攻击](#item-8) ⭐️ 8.0/10
+9. [华为 Atlas 350 加速卡算力达 H20 近三倍](#item-9) ⭐️ 8.0/10
+10. [阿里巴巴禁止员工使用 Claude 及 Anthropic 产品](#item-10) ⭐️ 8.0/10
+11. [NASA 发射救援卫星，抢救即将坠落的太空望远镜](#item-11) ⭐️ 8.0/10
+12. [腾讯阿图因 AI 在 CyberGym 测试中击败 Mythos](#item-12) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [crustc：将整个 Rust 编译器翻译成 C](https://github.com/FractalFir/crustc) ⭐️ 9.0/10
+## [欧洲议会间谍调查员遭飞马间谍软件攻击](https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/) ⭐️ 8.0/10
 
-名为 FractalFir 的开发者完成了一项为期三年的工程，将整个 Rust 编译器（rustc）翻译成 C 语言，创建了 crustc 转译器。这使得 Rust 代码可以在缺乏 LLVM 或 GCC 后端的平台上编译。 这一突破可能使 Rust 能够在任何拥有 C 编译器的平台上运行，包括老旧和冷门硬件，大幅拓展 Rust 的适用范围。同时，它也有可能解决自举问题，允许无需现有 Rust 编译器即可从源码构建 Rust。 据作者称，crustc 项目是已知的第 14 次将 Rust 转译为 C 的尝试。它不仅转译用户程序，还转译了整个 rustc 编译器本身，输出可由 GCC 或其他 C 编译器编译的 C 代码。
+公民实验室发现，欧洲议会间谍软件调查委员会成员斯特利奥斯·库洛格卢的 iPhone 在 2022 年 10 月和 2023 年 3 月两次被飞马间谍软件感染。 此案突显了调查间谍软件的人员反被同一技术盯上的讽刺与危险，揭示了欧盟机构面临的持续间谍威胁，以及加强网络安全措施的必要性。 公民实验室高度确信地确认了感染事件，且被入侵的手机中还包含机密个人医疗信息和政府文件，引发了对工作与个人设备未分离的担忧。
 
-hackernews · Philpax · 7月2日 22:57 · [社区讨论](https://news.ycombinator.com/item?id=48768464)
+hackernews · ledoge · 7月3日 20:38 · [社区讨论](https://news.ycombinator.com/item?id=48779683)
 
-**背景**: 转译（或称源到源编译）是将代码从一种高级语言转换为另一种高级语言，而非转换为机器码。Rust 编译器（rustc）是一个复杂的程序，传统上它生成 LLVM IR 或 GCC 后端代码。通过将 rustc 翻译成 C，crustc 利用了 C 编译器的普遍性，使 Rust 能在没有原生 LLVM 或 GCC 支持的平台上运行。
+**背景**: 飞马（Pegasus）是以色列 NSO 集团开发的强大商业间谍软件，能够远程、隐蔽地监控移动设备。公民实验室位于多伦多大学，是研究数字间谍活动的领先机构，曾曝光全球多起飞马滥用事件。库洛格卢是欧洲议会调查欧盟内部飞马等间谍软件使用情况的委员会成员。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/FractalFir/crustc">GitHub - FractalFir/crustc: Entirety of `rustc`, translated to C. · GitHub</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Source-to-source_compiler">Source-to-source compiler - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Pegasus_(spyware)">Pegasus (spyware)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Citizen_Lab">Citizen Lab</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区表现出浓厚兴趣，评论者注意到这一‘小众兴趣’所需的奉献精神。有些人讨论了使用双重编译（Diverse Double-Compiling）来验证 Rust 编译器的完整性，另一些人指出 LLVM 曾有过 C 后端但已被移除，现在有复兴它的努力。
+**社区讨论**: 社区评论强调了希腊持续的间谍软件丑闻，认为此次攻击可能由希腊政府而非外国势力策划。部分讨论涉及设备安全，指出使用独立的工作和个人设备或增强隐私的操作系统（如 GrapheneOS）本可降低风险。还有人指出欧盟成员国曾滥用飞马，破坏了联盟内部的信任。
 
-**标签**: `#Rust`, `#compiler`, `#transpilation`, `#C`, `#systems programming`
+**标签**: `#spyware`, `#Pegasus`, `#cybersecurity`, `#European Parliament`, `#Citizen Lab`
 
 ---
 
 <a id="item-2"></a>
-## [美国商务部长禁止人口普查中的差分隐私](https://scottaaronson.blog/?p=9902) ⭐️ 9.0/10
+## [本地运行顶级大型语言模型指南](https://github.com/jamesob/local-llm) ⭐️ 8.0/10
 
-2026 年 6 月 4 日，美国商务部长发布了第 DAO-216-26 号指令，禁止在人口普查数据中使用差分隐私和噪声注入技术，将披露避免限制为仅使用粗化技术。 该指令从根本上改变了人口普查局保护隐私的方式，引发了关于个人隐私与数据效用之间平衡的激烈辩论。它直接影响研究人员、政策制定者以及任何依赖准确人口普查数据来进行资源分配和选区重划的人。 该指令明确禁止“噪声注入”（即通过添加随机值来修改数据），并消除了差分隐私的核心技术。它强制要求优先使用粗化（例如四舍五入或聚合），仅将抑制作为最后手段。
+Jamesob 在 GitHub 发布了一份新指南，详细介绍了本地运行最先进大语言模型的硬件配置，从经济型到高达 5 万美元的高端方案。 该指南回应了日益增长的本地 AI 推理兴趣，为希望保护隐私、离线使用或避免订阅费用的爱好者和专业人士提供了实用建议，同时也引发了关于其与云服务成本效益的讨论。 最高端配置使用四块单价 1.2 万美元的 GPU，总花费约 5 万美元，号称能接近 Claude Opus 的性能；低成本方案包括双 RTX 3090（48 GB 显存）约 3000 美元，或采用统一内存架构的 M5 MacBook Pro。
 
-hackernews · flowercalled · 7月3日 00:01 · [社区讨论](https://news.ycombinator.com/item?id=48768992)
+hackernews · livestyle · 7月3日 15:03 · [社区讨论](https://news.ycombinator.com/item?id=48775921)
 
-**背景**: 差分隐私是一种数学框架，通过向统计输出中添加精心校准的噪声来保护个人隐私，同时保持聚合数据的准确性。人口普查局和其他机构一直使用噪声注入来防止受访者被重新识别。该指令逆转了向更强数学隐私保障发展的趋势，转而青睐可能提供较弱保护的简单方法。
+**背景**: 本地运行大语言模型需要大量 GPU 显存来存储模型权重，通常需要采用量化技术来减少内存占用。高端配置可能花费数万美元，而云订阅服务如 Claude Opus（每月 200 美元）提供了更便宜的替代方案。本指南帮助用户根据预算选择合适的硬件。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Differential_privacy">Differential privacy</a></li>
-<li><a href="https://www.bea.gov/help/faq/1490">Why didn’t BEA use noise infusion as its statistical disclosure limitation method in its June 10, 2026, news release on “New Foreign Direct Investment in the United States, 2025’’? | U.S. Bureau of Economic Analysis (BEA)</a></li>
-<li><a href="https://desfontain.es/blog/banning-noise.html">Banning noise will be a disaster for statistical data products - Ted is writing things</a></li>
+**社区讨论**: 评论者就成本效益展开辩论，jacobgold 指出 4 万美元的硬件相当于 16.8 年的 Claude 订阅费用。其他人建议使用 128 GB 统一内存系统或云托管等替代方案，而 Aurornis 警告存在隐藏成本和对量化技术的依赖。
 
-</ul>
-</details>
-
-**社区讨论**: 评论者对指令背后的政治动机表示困惑，一些人推测其目的是削弱人口普查数据在选区重划等方面的效用。其他人指出，文章缺乏对被禁方法和首选方法的详细比较，并呼吁提供更多关于噪声注入失败的实践证据。
-
-**标签**: `#privacy`, `#differential privacy`, `#census`, `#data policy`, `#statistics`
+**标签**: `#LLMs`, `#local inference`, `#hardware`, `#GPU`, `#AI`
 
 ---
 
 <a id="item-3"></a>
-## [ECTC 2026：EMIB-T、定制 HBM、HBM4、微流冷却与光子互连](https://newsletter.semianalysis.com/p/ectc2026) ⭐️ 9.0/10
+## [Wordgard：ProseMirror 创建者推出的新富文本编辑器](https://wordgard.net/) ⭐️ 8.0/10
 
-在 ECTC 2026 上，英特尔详细介绍了其即将推出的带有硅通孔的 EMIB-T 封装技术，用于 HBM4 和 UCIe；而台积电、SK 海力士、三星、美光、Marvell 和 Lightmatter 展示了定制 HBM、HBM4 封装挑战、微流冷却和光子互连方面的进展。 这些进展解决了 AI 硬件性能和扩展性方面的关键瓶颈，特别是高带宽内存和芯片间互连，可能加速下一代 AI 加速器的发展。 英特尔的 EMIB-T 集成了硅通孔以改善供电和更大的封装尺寸，计划今年投入生产；Lightmatter 展示了用于 AI 扩展的光子互连，而 HBM4 封装由于更紧密的凸点间距和散热需求仍是一个关键挑战。
+Wordgard 0.1.0 已发布，这是一款由 ProseMirror 的创建者 Marijn Haverbeke 开发的新款浏览器内富文本编辑器。它与 ProseMirror 共享许多概念，但引入了重新设计的架构和自定义文档模型。 Wordgard 代表了 Web 富文本编辑领域的一次重要演进，它来自受信任的作者，但现有 ProseMirror 用户需要付出大量的迁移工作。这可能会分裂生态系统，或者推动创新。 根据文档，从 ProseMirror 到 Wordgard 没有直接的升级路径。该编辑器仍处于早期开发阶段（版本 0.1.0），创建者已保证 ProseMirror 不会被弃用。
 
-rss · Semianalysis · 7月2日 17:25
+hackernews · indy · 7月3日 08:50 · [社区讨论](https://news.ycombinator.com/item?id=48772573)
 
-**背景**: 半导体封装将芯片连接在一起并连接到外部世界；像 EMIB（嵌入式多芯片互连桥）这样的先进封装实现了高密度互连。HBM（高带宽内存）垂直堆叠 DRAM 芯片，HBM4 是下一代更高带宽的产品。光子互连使用光而非电进行更快、更低功耗的数据传输，对于扩展 AI 系统至关重要。
+**背景**: ProseMirror 是一个广泛使用的开源库，用于构建具有所见即所得界面的富文本编辑器，以其可扩展的 schema 和协作编辑支持而闻名。它是 Tiptap 等编辑器的基础。Wordgard 是同一作者的新系统，重新思考了 ProseMirror 的一些核心设计决策。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.tomshardware.com/pc-components/cpus/intel-details-new-advanced-packaging-breakthroughs-emib-t-paves-the-way-for-hbm4-and-increased-ucie-bandwidth">Intel details new advanced packaging breakthroughs — EMIB-T paves the way for HBM4 and increased UCIe bandwidth | Tom's Hardware</a></li>
-<li><a href="https://www.tomshardware.com/tech-industry/semiconductors/intels-emib-t-heads-for-fab-rollout-this-year">Intel's EMIB-T packaging technology set for fab rollout this year — as TSMC CoWoS capacity remains limited, EMIB-T is preparing for advanced AI accelerator designs | Tom's Hardware</a></li>
-<li><a href="https://spectrum.ieee.org/optical-interposers">Optical Interconnects: Lightmatter’s Optical Interposers ...</a></li>
+<li><a href="https://discuss.prosemirror.net/t/wordgard-0-1-0/9035">Wordgard 0.1.0 - Announce - discuss.ProseMirror</a></li>
+<li><a href="https://prosemirror.net/">ProseMirror</a></li>
 
 </ul>
 </details>
 
-**标签**: `#semiconductor`, `#packaging`, `#HBM4`, `#photonics`, `#AI hardware`
+**社区讨论**: 社区讨论总体积极，但注意到缺乏迁移路径。一位用户称赞了设计，另一位用户对看到与自己基于块的实现相似之处表示欣慰。还有评论者强调了为此类编辑器制定 Web 标准的必要性。
+
+**标签**: `#rich-text editor`, `#ProseMirror`, `#web development`, `#WYSIWYG`
 
 ---
 
 <a id="item-4"></a>
-## [讽刺创业烤箱故事揭示产品开发失败教训](https://weli.dev/blog/half-baked-product/) ⭐️ 8.0/10
+## [将代码转为图片降低 LLM 成本 60%的新工具](https://github.com/teamchong/pxpipe) ⭐️ 8.0/10
 
-一篇题为《半生不熟的产品》的讽刺博文讲述了一个创业烤箱项目因期望错位、缺乏领域专长以及承诺落空而失败的故事，在科技社区引起强烈共鸣。 这篇文章对创业产品开发中的常见陷阱（如创始人动机与工程现实的脱节）进行了细腻的批评，为创始人和工程师提供了警示。 创始人受财富驱动而非领域专长，向工程师承诺 20%股权和完全创作自由，但最终这些承诺未能兑现。故事中还提到一个名为 OpenOven 的虚构竞争对手，提供免费烤箱但有许多功能异常的按钮。
+一款名为 pxpipe 的新工具将代码转换为图片，利用更便宜的图像 token 定价，将 LLM API 成本降低高达 60%。 这一巧妙技巧大幅降低了使用 LLM 处理代码相关任务的成本，使其更易获取，同时揭示了 LLM API 中可能被利用的定价不一致问题。 该工具将代码格式化为图片，并依赖 LLM 内置的 OCR 功能读取文本，节省来自较低的图像 token 定价。但若提供商调整 token 计费，这可能只是临时漏洞。
 
-hackernews · weli · 7月3日 08:23 · [社区讨论](https://news.ycombinator.com/item?id=48772388)
+hackernews · dimitropoulos · 7月3日 15:50 · [社区讨论](https://news.ycombinator.com/item?id=48776464)
 
-**背景**: 这篇博文是一个讽刺性寓言，影射创业世界中常见的产品开发失败：创始人常在没有深厚知识的情况下进入行业，对工程师过度承诺，最终得到半生不熟的产品。许多现实中的初创公司面临类似挑战，导致努力白费、期望破灭。
+**背景**: LLM 通常对文本和图像按 token 收费，图像 token 定价往往更低。一些提供商如 Gemini 在处理 PDF 时内部执行 OCR 而不收文本 token 费用，暗示可能存在类似后端处理。该工具利用这种定价差异来降低代码输入的成本。
 
-**社区讨论**: 评论者认为这个故事真实得令人不安，有人指出关于工程师动机的部分是“彻头彻尾的谎言”。另一位分享了类似经历：他们功能正常的烤箱被一个免费且功能臃肿的竞争对手击败。整体情绪混合了黑色幽默和对真实创业动态的认同。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://blog.roboflow.com/image-token-cost-vlm/">What does it cost to process an image with a vision model?</a></li>
+<li><a href="https://cloud.google.com/blog/products/ai-machine-learning/what-is-ocr">What is OCR | Google Cloud Blog</a></li>
 
-**标签**: `#startups`, `#product development`, `#engineering culture`, `#satire`
+</ul>
+</details>
+
+**社区讨论**: 评论者指出，这可能是 token 计费中的漏洞，可能会被修复，类似于过去使用 OpenAI 模型的尝试，因增加完成 token 而导致总成本更高。还有人将其与使用图像进行上下文压缩的 Oh-My-Pi 等工具比较，有人调侃这是重新发现压缩数据表示。
+
+**标签**: `#LLM`, `#cost optimization`, `#hack`, `#OCR`, `#token pricing`
 
 ---
 
 <a id="item-5"></a>
-## [本地智能权利运动倡导本地 AI 运行权](https://righttointelligence.org/) ⭐️ 8.0/10
+## [对 MVP 误用和创始人动机的批判](https://weli.dev/blog/half-baked-product/) ⭐️ 8.0/10
 
-该运动回应了对 AI 即服务（AIaaS）公司监管俘获的担忧，旨在保护 AI 生态系统中的用户隐私、控制权和创新。它可能影响未来围绕 AI 监管和设备权利的政 华硕、戴尔、惠普、联想、微软和微星等主要 OEM 厂商正通过即将推出的 Nvidia RTX Spark 平台支持本地 AI 硬件，表明行业对本地 LLM 使用的大力支持。该运动具有前瞻性，旨在限制性法律通过之前确立权利。
+这篇博客文章探讨了如何误用最小可行产品（MVP）概念导致产品半成品，并以一个创始人主要动机是财富而非领域专业知识为例进行说明。 它揭示了创业文化中的一个常见陷阱：将 MVP 用作发布不完整产品的借口，并强调了真正的领域专业知识胜过市场驱动的机会主义。 文章指出，该创始人在不同行业有多个失败的创业项目，原因是缺乏领域专业知识，并且 MVP 被误用来跳过关键的产品开发步骤。
 
-hackernews · thoughtpeddler · 7月2日 23:54 · [社区讨论](https://news.ycombinator.com/item?id=48768951)
+hackernews · weli · 7月3日 08:23 · [社区讨论](https://news.ycombinator.com/item?id=48772388)
 
-**背景**: 本地 LLM 是指在用户自有设备（如 PC 或智能手机）上完全运行的大型语言模型，无需将数据发送到云服务器。这与 AI 即服务（AIaaS）模式形成对比，后者在远程服务器上处理用户数据。潜在法规可能要求安全认证或使用监控，而这对于本地运行的模型可能不可行，从而引发对本地 AI 事实禁令的担忧。
+**背景**: 最小可行产品（MVP）是 Eric Ries 在精益创业方法论中推广的概念，被定义为允许团队以最小努力收集最多关于客户的验证学习的版本。然而在实践中，它常被误解为廉价、不完整的产品，而非学习工具。这种批判认为，当创始人优先考虑财富而非理解其领域时，他们会滥用 MVP 来推出半成品。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/msb-msb/awesome-local-ai">GitHub - msb-msb/awesome-local-ai: A curated list of ...</a></li>
-<li><a href="https://whatllm.org/best-local-llm">Best Local LLMs in 2026: Which Model Should You Run Locally ...</a></li>
+**社区讨论**: 评论者对 MVP 的误用表示沮丧，指出创始人往往缺乏领域专业知识而依赖市场分析。一位评论者讽刺地提到一个洗碗机初创公司的原型会打碎玻璃，说明了半成品问题。另一位评论者强调了初创公司中不同角色之间的脱节。
 
-</ul>
-</details>
-
-**社区讨论**: 评论者反应不一：一些人认为鉴于行业对本地 AI 硬件的支持，限制性法律不太可能通过；而另一些人则强调需要积极倡导以防止监管俘获。还有人指出，历史上将数学（如加密）定为非法的做法已经失败，暗示对本地 AI 禁令也会出现类似的抵制。
-
-**标签**: `#AI regulation`, `#local AI`, `#open-source AI`, `#digital rights`, `#LLM`
+**标签**: `#MVP`, `#startup`, `#product development`, `#founder motivation`
 
 ---
 
 <a id="item-6"></a>
-## [Linux 6.9 中 LUKS 挂起操作的安全回归](https://mathstodon.xyz/@iblech/116769502749142438) ⭐️ 8.0/10
+## [CDD 仅从 logits 恢复微调逐字数据](https://www.reddit.com/r/MachineLearning/comments/1umn2dk/contrastive_decoding_diffing_cdd_recovering/) ⭐️ 8.0/10
 
-自 Linux 6.9 起，`cryptsetup luksSuspend` 操作不再从内存中清除磁盘加密密钥，导致系统挂起时密钥暴露。 这一回归破坏了全盘加密的关键安全功能，依赖 LUKS 挂起操作来保护密钥免受冷启动攻击或设备盗窃的用户可能会面临数据泄露风险。 该错误源于内核提交中意外删除了负责清除加密密钥的一行 C 代码，并且在 Linux 6.9 及更高版本中未被发现超过两年。
+研究人员提出对比解码差分（CDD）方法，通过对比基础模型和微调模型的 logits 来恢复逐字微调数据，仅需 logit 访问权限（无需权重或激活值）。 该技术极大提升了模型审计和可解释性，与之前的白盒方法相比，能以最小访问权限检测逐字训练数据泄露和潜在后门。 CDD 在四个模型系列（1B-32B 参数）的 20 个有机体-模型对中的 19 对上取得了 4+/5 的逐字恢复分数，超越了需要完全权重访问但从未超过 3/5 的激活差分透镜（ADL）。
 
-hackernews · IngoBlechschmid · 7月2日 15:25 · [社区讨论](https://news.ycombinator.com/item?id=48763035)
+reddit · r/MachineLearning · /u/CebulkaZapiekana · 7月3日 19:01
 
-**背景**: LUKS（Linux 统一密钥设置）是一种磁盘加密规范。`luksSuspend` 命令会挂起 LUKS 设备并从内核内存中移除解密密钥，恢复时需要重新输入密码。该设计旨在防止冷启动攻击——攻击者通过物理访问可以转储内存内容。
+**背景**: 模型差分是比较基础模型和微调模型以理解变化的方法。先前的工作（激活差分透镜）使用激活差异但需要白盒访问，且只能恢复模糊描述。CDD 是对比 logits 的输出级类比。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.man7.org/linux//man-pages/man8/cryptsetup-luksSuspend.8.html">cryptsetup-luksSuspend (8) - Linux manual page - man7.org</a></li>
-<li><a href="https://news.ycombinator.com/item?id=48763035">Since Linux 6.9, LUKS suspend stopped wiping disk-encryption ...</a></li>
-<li><a href="https://byteiota.com/luks-suspend-broken-since-kernel-6-9-two-year-gap/">LUKS Suspend Broken Since Kernel 6.9: Two-Year Gap</a></li>
+<li><a href="https://aiwiki.ai/wiki/contrastive_decoding">Contrastive decoding | AI Wiki</a></li>
+<li><a href="https://transformer-circuits.pub/2024/model-diffing/index.html">Stage-Wise Model Diffing</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者就严重性展开辩论：有人认为挂起至 RAM 本身就保留了密钥，因此该回归主要影响边境检查等特定场景；另一些人则指出该错误很严重，缺乏自动化测试使其持续存在。
-
-**标签**: `#security`, `#linux-kernel`, `#disk-encryption`, `#LUKS`
+**标签**: `#machine learning`, `#model diffing`, `#LLM finetuning`, `#interpretability`, `#security`
 
 ---
 
 <a id="item-7"></a>
-## [阿里巴巴因后门风险禁止 Claude Code](https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/) ⭐️ 8.0/10
+## [国家金融监管总局接管众邦银行因信用风险](https://t.me/FinanceNewsDaily/490005) ⭐️ 8.0/10
 
-阿里巴巴已下令所有员工卸载 Claude Code 及其他 Anthropic 产品，包括 Sonnet、Opus 和 Fable，禁令将于 2026 年 7 月 10 日生效。此前，Anthropic 指控阿里巴巴在 4 月 22 日至 6 月 5 日间使用了约 2.5 万个虚假账号与 Claude 交互超过 2800 万次。 此事件凸显了中美在 AI 安全领域日益紧张的局势，以及企业使用能访问专有代码库的云端编码助手所面临的风险。这可能促使其他公司重新考虑对外部 AI 工具的依赖。 阿里巴巴此前曾报销员工使用 Claude、GPT 和 Gemini 等外部模型的费用。Anthropic 的指控导致其收紧风控，此次禁令不仅涵盖 Claude Code，还包括 Sonnet、Opus 和 Fable 模型。
+国家金融监督管理总局联合湖北省人民政府宣布对武汉众邦银行股份有限公司实施接管，原因是该行出现严重信用风险。此举依据《银行业监督管理法》和《商业银行法》，旨在保护存款人和其他客户的合法权益。 此次接管表明中国银行业监管力度加大，凸显了中小银行面临的系统性风险。干预旨在防止风险蔓延、维护金融稳定，对存款人和整个银行业生态具有重要影响。 众邦银行是一家总部位于武汉的商业银行，因出现严重信用风险而被接管。根据中国法律，接管期间该银行股东会等权力机构停止履行职责，相关职能由监管机构指定的接管组行使。
 
-hackernews · nsoonhui · 7月3日 08:31 · [社区讨论](https://news.ycombinator.com/item?id=48772443)
+telegram · FinanceNewsDaily · 7月3日 09:45
 
-**背景**: Claude Code 是 Anthropic 开发的 AI 编码代理，可读取代码库、编辑文件并在终端中运行命令。Anthropic 的模型采用“宪法 AI”技术训练以提升伦理合规性。美国联邦机构也曾因合同纠纷逐步淘汰 Claude，这凸显了更广泛的地缘政治关切。
+**背景**: 国家金融监督管理总局（金融监管总局）于 2023 年 3 月设立，是国务院直属机构，在原中国银行保险监督管理委员会基础上组建，并整合了中国人民银行的部分监管职责及中国证券投资者保护职责。银行接管是针对已经或可能发生信用危机、严重影响存款人利益的银行所采取的法律程序，监管机构可借此进行机构重组，帮助银行恢复正常经营。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Claude_Code">Claude Code</a></li>
+<li><a href="https://zh.wikipedia.org/zh-cn/国家金融监督管理总局">国家金融监督管理总局 - 维基百科，自由的百科全书</a></li>
+<li><a href="https://ailegal.baidu.com/legalarticle/qadetail?id=2d43012c49c25e250906">银行接管管理规定 - ailegal.baidu.com</a></li>
+<li><a href="https://www.zhihu.com/question/387180588">商业银行接管的实质是什么？ - 知乎</a></li>
+
+</ul>
+</details>
+
+**标签**: `#finance`, `#regulation`, `#banking`, `#risk`
+
+---
+
+<a id="item-8"></a>
+## [Anthropic 指控阿里巴巴对 Claude 发动大规模蒸馏攻击](https://t.me/zaihuapd/42327) ⭐️ 8.0/10
+
+Anthropic 致信美国参议院银行委员会，指控阿里巴巴通过近 2.5 万个欺诈账户对 Claude AI 模型发动大规模蒸馏攻击，以窃取其能力。 这一涉及两大 AI 巨头的指控凸显了通过蒸馏攻击窃取模型能力的日益严重威胁，可能加剧 AI 安全和国际科技竞争中的紧张局势。 攻击发生在 2026 年 4 月 22 日至 6 月 5 日期间，与 Claude 进行了超过 2880 万次交互，Anthropic 称这是针对该公司迄今已知最大规模的蒸馏攻击，涉及阿里巴巴及其 Qwen AI 实验室。
+
+telegram · zaihuapd · 7月3日 06:21
+
+**背景**: 模型蒸馏是一种技术，通过让较小的模型从较大、更强大的模型输出中学习，以高效复制其能力。虽然蒸馏是用于模型压缩的合法方法，但当大规模未经授权使用时，就变成了窃取专有模型功能的盗窃技术。Anthropic 一直在研究检测和防范此类攻击，但指出需要行业协同应对。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks">Detecting and preventing distillation attacks \ Anthropic</a></li>
+<li><a href="https://www.linkedin.com/pulse/what-model-distillation-really-means-why-anthropic-example-mahajan-sf2bf">What model “ distillation ” really means and why the Anthropic example...</a></li>
+<li><a href="https://www.mindstudio.ai/blog/ai-model-distillation-attacks-explained">AI Model Distillation Attacks : What They Are and Why... | MindStudio</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI security`, `#model distillation`, `#Anthropic`, `#Alibaba`, `#Claude`
+
+---
+
+<a id="item-9"></a>
+## [华为 Atlas 350 加速卡算力达 H20 近三倍](https://t.me/zaihuapd/42329) ⭐️ 8.0/10
+
+华为在 2026 年中国合作伙伴大会上正式发布并上市 Atlas 350 加速卡，搭载全新昇腾 950PR 处理器，声称其算力达到英伟达 H20 的 2.87 倍。 该产品标志着华为在 AI 推理市场挑战英伟达主导地位的最新尝试，特别是在出口限制持续背景下。支持 FP4 和高内存容量，有望大幅降低大语言模型的推理成本。 Atlas 350 在 FP4 精度下提供 1.56 PFLOPS 算力，并配备 112 GB 华为自研 HiBL 1.0 高带宽内存。它支持单卡加载 70B 参数模型，无需多卡组合。
+
+telegram · zaihuapd · 7月3日 08:35
+
+**背景**: FP4 是一种极低精度格式（4 位浮点），通过降低内存和计算需求来加速 AI 推理，同时保持可接受的精度。英伟达 H20 是为符合美国出口管制而在中国销售的降规 GPU。华为昇腾系列是国产替代品，在中国市场逐渐获得认可。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.huaweicentral.com/huawei-atlas-350-ai-card-debuts-outshining-nvidia-h20-chip/">Huawei Atlas 350 AI card debuts, outshining Nvidia H20 chip</a></li>
+<li><a href="https://www.tomshardware.com/pc-components/gpus/huawei-unveils-new-atlas-350-ai-accelerator-with-1-56-pflops-of-fp4-compute-and-up-to-112gb-of-hbm-claims-2-8x-more-performance-than-nvidias-h20">Huawei unveils new Atlas 350 AI accelerator with 1.56 PFLOPS ...</a></li>
+<li><a href="https://nerdleveltech.com/huawei-ascend-950pr-atlas-350-ai-chip-challenges-nvidia">Huawei Ascend 950PR Beats NVIDIA H20: 2.8× FP8, CUDA-Ready</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Huawei`, `#AI accelerators`, `#hardware`, `#FP4`, `#Atlas 350`
+
+---
+
+<a id="item-10"></a>
+## [阿里巴巴禁止员工使用 Claude 及 Anthropic 产品](https://t.me/zaihuapd/42334) ⭐️ 8.0/10
+
+阿里巴巴发布内部指令，要求所有员工卸载 Claude 及所有 Anthropic 相关产品，包括 Sonnet、Opus、Fable 等模型以及 Agent 产品 Claude Code，禁令于 7 月 10 日生效。 这一禁令标志着中国大型科技公司与西方领先 AI 公司之间紧张关系升级，可能重塑企业 AI 使用政策，并影响跨境 AI 竞争格局。 此次禁令前，Anthropic 指控阿里巴巴在 4 月 22 日至 6 月 5 日期间使用约 2.5 万个虚假账户与 Claude 交互超过 2800 万次，导致 Anthropic 收紧风控策略。此前，阿里巴巴曾报销员工使用 Claude、GPT、Gemini 等外部模型的费用。
+
+telegram · zaihuapd · 7月3日 13:00
+
+**背景**: Claude 是由美国 AI 安全公司 Anthropic 开发的一系列大型语言模型，包括 Haiku、Sonnet、Opus 和 Fable 等针对不同任务的优化版本。Claude Code 是一种智能编码工具，可以读取代码库并执行命令。阿里巴巴此举反映了企业在安全和竞争考虑下对外部 AI 工具日益严格的限制。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Claude_(language_model)">Claude ( AI ) - Wikipedia</a></li>
+<li><a href="https://claude.com/resources/tutorials/choosing-the-right-claude-model">Choosing the right Claude model : Haiku, Sonnet , Opus , or Fable</a></li>
 <li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: Hacker News 上的评论观点不一：有人回忆之前 Claude 消耗用量或降级模型的事件，加剧了不信任；也有人认为所有远程 AI 都存在安全风险，企业对访问专有代码的工具变得更加谨慎。一份泄露的中文 Telegram 消息详细说明了禁令指令。
-
-**标签**: `#AI`, `#Security`, `#Enterprise`, `#Claude`, `#Geopolitics`
-
----
-
-<a id="item-8"></a>
-## [Podman v6.0.0 发布，集成 Quadlet](https://blog.podman.io/2026/07/introducing-podman-v6-0-0/) ⭐️ 8.0/10
-
-Podman v6.0.0 这个无守护进程容器引擎的主要版本已发布，增强了 Quadlet 支持，可通过 systemd 单元文件声明式管理容器。 作为 Docker 的主要替代品，Podman v6.0.0 提升了易用性和 systemd 集成，有望加速在 DevOps 及生产环境中的采用。 此版本核心是 Quadlet，用户可在 systemd 单元文件中定义容器、Pod 和网络，简化部署。社区反馈表明 docker-compose 兼容性良好，但也存在细微不兼容和发行版支持不足的问题。
-
-hackernews · soheilpro · 7月2日 14:23 · [社区讨论](https://news.ycombinator.com/item?id=48762098)
-
-**背景**: Podman 是一个无守护进程、支持 rootless 的容器引擎，旨在作为 Docker 的即插即用替代品。Quadlet 是一个与 systemd 集成、声明式管理容器的工具，可实现自动更新和回滚等功能。此版本在此基础上改进，提升了开发者和运维人员的使用体验。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://docs.podman.io/en/latest/markdown/podman-quadlet.1.html">podman-quadlet — Podman documentation</a></li>
-<li><a href="https://www.redhat.com/en/blog/quadlet-podman">Make systemd better for Podman with Quadlet - Enable Sysadmin</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区反应褒贬不一：许多人称赞 Podman 从 Docker 迁移的便利性和 Quadlet 的威力，但也有人批评缺乏对 Ubuntu 等流行发行版的官方包支持，以及细微的 Docker 不兼容问题，可能给依赖 Docker 特定行为的项目带来麻烦。
-
-**标签**: `#podman`, `#containers`, `#docker-alternative`, `#devops`, `#release`
-
----
-
-<a id="item-9"></a>
-## [Immich 3.0 重大版本发布](https://github.com/immich-app/immich/discussions/29439) ⭐️ 8.0/10
-
-Immich 3.0 已发布，这是广受欢迎的开源自托管照片管理平台的一次重大更新。新版本包含了社区贡献的错误修复和改进。 此次发布巩固了 Immich 作为 Google Photos 领先的自托管替代品的地位，让用户完全掌控自己的数据。其不断增强的功能集和活跃的社区使其成为注重隐私的用户的不二之选。 该版本未引入端到端加密，这是社区讨论的热点。许多用户将 Immich 与 Tailscale 或全盘加密等工具结合使用以增强安全性。
-
-hackernews · hashier · 7月2日 14:13 · [社区讨论](https://news.ycombinator.com/item?id=48761944)
-
-**背景**: Immich 是一款免费的开源自托管照片和视频备份解决方案，可作为 Google Photos 等云服务的替代品。用户在自己的硬件上安装服务器，并通过网页或移动应用访问媒体，从而确保隐私和数据所有权。该项目在自托管社区中获得了显著关注。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://immich.app/">Immich</a></li>
-<li><a href="https://grokipedia.com/page/Immich">Immich</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区参与度很高，评论中既有庆祝学生贡献的，也有关于加密的辩论。一些用户认为不需要端到端加密，物理安全就足够了，而另一些用户则更喜欢像 Ente 这样提供内置加密的替代方案。总体情绪积极，用户称赞 Immich 的品质和价值。
-
-**标签**: `#self-hosting`, `#photo management`, `#open source`, `#privacy`
-
----
-
-<a id="item-10"></a>
-## [Postgres 事务：分布式系统超能力](https://www.dbos.dev/blog/co-locating-workflow-state-with-your-data) ⭐️ 8.0/10
-
-一篇博文提出利用 Postgres 事务来管理工作流状态，将状态与数据放在同一数据库中，从而简化分布式协调。 这种方法消除了对消息队列或两阶段提交等独立协调机制的需求，但将数据库与工作流逻辑紧密耦合，使得后续架构分离更加困难。 每个工作流步骤成为一个独立的数据库提交单元，简化了发件箱模式；但数据库与工作流紧密耦合，后续可能难以分离。
-
-hackernews · KraftyOne · 7月2日 18:38 · [社区讨论](https://news.ycombinator.com/item?id=48765639)
-
-**背景**: 分布式工作流通常需要协调多个服务，传统上使用消息队列或 Saga 模式。Postgres 事务提供原子性和一致性，使工作流进度与数据库提交对齐，从而将数据库用作协调点。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://news.ycombinator.com/item?id=48765639">Postgres transactions are a distributed systems superpower ...</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论观点不一：有人欣赏其原子性和简洁性（Crowberry），而另一些人质疑它是否真正分布式（cloudie78），并指出紧密耦合问题（jdw64）。mrkeen 回忆了一次面试经历，他认为无法原子性地同时更新数据库和消息队列。
-
-**标签**: `#Postgres`, `#distributed systems`, `#transactions`, `#workflow`, `#database architecture`
+**标签**: `#AI`, `#Claude`, `#Alibaba`, `#corporate policy`, `#Anthropic`
 
 ---
 
 <a id="item-11"></a>
-## [Meta 拥抱面向 AI 计算的 Neocloud 模式](https://newsletter.semianalysis.com/p/meta-compute-everyone-wants-to-be) ⭐️ 8.0/10
+## [NASA 发射救援卫星，抢救即将坠落的太空望远镜](https://apnews.com/article/swift-nasa-satellite-rescue-katalyst-a7ddd740ca099587c58865f583c7245a) ⭐️ 8.0/10
 
-此举标志着大型科技公司构建类似 neocloud 的专用 AI 基础设施的重要趋势，可能颠覆传统超大规模云服务商的主导地位，并重新定义 AI 工作负载的经济性。 该分析提到即将推出的“ClusterMAX 排名”，这是一个对 GPU 云提供商的性能、网络和定价进行评分的系统，并提及将推荐系统扩展 10 倍。
+NASA 于 2026 年 6 月发射了 LINK 航天器，执行救援任务，计划抓住老化的雨燕太空望远镜并将其轨道抬升约 240 公里，以防止其最早在今年 10 月坠入大气层。 这次任务标志着私人航天器首次尝试抓取美国政府的无人卫星，展示了在轨服务和碎片减缓的新能力，未来可能延长哈勃太空望远镜等宝贵资产的寿命。 LINK 航天器由 Katalyst Space Technologies 根据 NASA 3000 万美元的合同开发，将使用机械臂固定雨燕，然后通过推进器缓慢抬升轨道；如果救援成功，雨燕最快可在 9 月恢复科学观测。
 
-rss · Semianalysis · 7月2日 22:18
+telegram · zaihuapd · 7月3日 15:43
 
-**背景**: Neocloud 是专门针对 AI 工作负载的云服务商，提供高性能 GPU 集群、透明定价且无需长期合同，不同于 AWS 或 Azure 等传统超大规模云服务商。Meta 的转变反映了更广泛的行业趋势，SpaceX 和 Bedrock 等公司也采用了类似的定制基础设施策略。
+**背景**: 雨燕是一台于 2004 年发射升空的空间天文台，用于研究伽马射线暴等宇宙现象。20 多年来，其轨道因太阳活动加剧而持续衰减，若不干预将坠入地球大气层烧毁。LINK 是一种专用的在轨服务飞行器，旨在交会并抓取老化卫星，抬升其轨道以延长运行寿命。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-evolution-of-neoclouds-and-their-next-moves">Neoclouds’ challenges and next moves | McKinsey</a></li>
-<li><a href="https://www.cisco.com/site/us/en/learn/topics/computing/what-is-neocloud.html">What is neocloud? - Cisco</a></li>
-<li><a href="https://newsletter.semianalysis.com/p/clustermax-20-the-industry-standard">ClusterMAX™ 2.0: The Industry Standard GPU Cloud Rating System</a></li>
+<li><a href="https://baike.baidu.com/item/Link/67531114">Link（美国航天器）_百度百科</a></li>
+<li><a href="https://www.msn.com/zh-cn/news/other/link卫星27日升空赴约-3000万-救星-力挽5亿美元雨燕天文台轨道危机/ar-AA262rcJ">Link卫星27日升空赴约：3000万“救星”力挽5亿美元雨燕天文台轨道危机</a></li>
+<li><a href="https://news.qq.com/rain/a/20260630A04WGY00">“雨燕”坠落，NASA紧急“太空营救”，成功的话下次救“哈勃”</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Meta`, `#Cloud Computing`, `#AI Infrastructure`, `#Recommendation Systems`, `#Data Centers`
+**标签**: `#航天`, `#太空望远镜`, `#轨道救援`, `#私人航天`, `#NASA`
 
 ---
 
 <a id="item-12"></a>
-## [Google Gemini Omni Flash 登顶 Video Arena 排行榜](https://x.com/Designarena/status/2072759122366509130) ⭐️ 8.0/10
+## [腾讯阿图因 AI 在 CyberGym 测试中击败 Mythos](https://mp.weixin.qq.com/s/BzU7g-2iG7d6h4ViwMhxyg) ⭐️ 8.0/10
 
-Google DeepMind 的视频生成模型 Gemini Omni Flash 以 1404 分在 Video Arena 盲测排行榜上登顶，领先字节跳动的 Seedance 2.0 Mini 达 101 分。 这标志着 AI 视频生成领域的重大变化，Google 超越了长期占据榜首的字节跳动 Seedance 系列，凸显了多模态生成式 AI 的激烈竞争。 Gemini Omni Flash 结合了 Gemini 的智能与生成式媒体模型，支持文本生成视频、图像生成视频以及对话式视频编辑。该模型还使 Google 的总体视频模型排名相比 Veo 系列提升了 7 位。
+腾讯玄武实验室的阿图因 AI 基于开源模型 GLM-5.1 构建，在 CyberGym 网络安全基准测试中获得 84.0%的得分，超越 Anthropic 的 Claude Mythos Preview，且预算不到 Mythos 的 0.1%。 这表明高性能的网络安全 AI 可以通过低成本的开源模型实现，挑战了只有大规模专有模型才能胜任漏洞检测的假设。它可能以极低的成本使先进的 AI 安全工具更加普及。 阿图因 AI 还在 curl、gnark、OpenSSL、Python cryptography 和 Java bc-java 等项目中发现多个 Mythos 未检出的高危逻辑漏洞，最高严重性评分达 9.3。在伯克利 BVI 真实世界漏洞榜单中，阿图因 AI 的严重漏洞数量排名第一，总数排名第五。
 
-telegram · zaihuapd · 7月3日 05:51
+telegram · zaihuapd · 7月3日 16:12
 
-**背景**: Video Arena 是一个众包盲测平台，用户通过比较匿名视频输出并进行投票，产生类似 Elo 的排名。字节跳动的 Seedance 2.0 Mini 是 Seedance 2 视频系列中的经济高效版本，能在大约两分钟内生成带有同步音频的视频片段。Google 之前的 Veo 系列排名较低。
+**背景**: CyberGym 是一个评估 AI 代理网络安全能力的基准测试，涵盖漏洞的完整生命周期。GLM-5.1 是由智谱 AI（Z.ai）开发的开源大语言模型，采用 MIT 许可证发布，支持本地部署。Claude Mythos Preview 是 Anthropic 的强大模型，此前在 CyberGym 排行榜上领先。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://llm-stats.com/leaderboards/best-ai-for-video-generation">Best AI for Video Generation in 2026 — Ranked by Blind Human ...</a></li>
-<li><a href="https://deepmind.google/models/model-cards/gemini-omni-flash/">Gemini Omni Flash - Model Card — Google DeepMind</a></li>
-<li><a href="https://seedance2.ai/seedance-2-0-mini">Seedance 2.0 Mini - Lower-Cost Cinematic AI Video Generator ...</a></li>
+<li><a href="https://llm-stats.com/benchmarks/cybergym">CyberGym Benchmark Leaderboard | LLM Stats</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GLM-5.1">GLM-5.1</a></li>
+<li><a href="https://www.cybergym.io/cybergym-e2e/">CyberGym -E2E: Scalable Real-World Benchmark for AI Agents...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI video generation`, `#Google`, `#Gemini Omni Flash`, `#ByteDance`, `#Video Arena`
-
----
-
-<a id="item-13"></a>
-## [Anthropic 指控阿里巴巴发动大规模模型蒸馏攻击](https://t.me/zaihuapd/42327) ⭐️ 8.0/10
-
-Anthropic 指控阿里巴巴通过约 2.5 万个欺诈账户，在 2026 年 4 月 22 日至 6 月 5 日期间与 Claude 进行了超过 2880 万次交互，发动了大规模“蒸馏攻击”以窃取其 AI 模型能力。 如果证实，这将是针对领先 AI 公司迄今已知最大规模的蒸馏攻击，引发对知识产权保护、AI 安全以及行业竞争情报的重大担忧。 Anthropic 明确点名阿里巴巴及其 AI 实验室 Qwen 参与其中，并向美国参议院银行委员会报告了此事。攻击利用公共 API 访问，反复查询 Claude 以提取其能力。
-
-telegram · zaihuapd · 7月3日 06:21
-
-**背景**: 模型蒸馏是一种让较小的“学生”模型学习模仿较大“教师”模型输出的技术，通常用于降低计算成本。蒸馏攻击则恶意利用这一原理，通过公共接口反复查询专有 AI 模型，未经授权窃取其知识。多家 AI 公司曾报告过针对中国实验室的此类攻击。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Knowledge_distillation">Knowledge distillation - Wikipedia</a></li>
-<li><a href="https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks">Detecting and preventing distillation attacks \ Anthropic</a></li>
-<li><a href="https://www.mindstudio.ai/blog/ai-model-distillation-attacks-explained">AI Model Distillation Attacks: What They Are and Why They ...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI Security`, `#Model Distillation`, `#Anthropic`, `#Alibaba`, `#Competitive Intelligence`
-
----
-
-<a id="item-14"></a>
-## [中国新规草案：账号休眠注销、AI 标识与个性化推荐关闭](https://mp.weixin.qq.com/s/TfYZaC8ULPvu9JeTqYGkKg) ⭐️ 8.0/10
-
-国家网信办于 2026 年 7 月 3 日发布了《互联网信息服务管理办法（修订草案征求意见稿）》，提出平台可对超过 6 个月未登录的账号进行限制或注销，要求对 AI 生成内容进行标识，允许用户关闭个性化推荐，并禁止刷量、控评等行为。 该法规将对中国所有互联网平台产生重大影响，涉及用户账号管理、AI 内容透明度和算法推荐系统。这标志着中国在规范网络内容和保护用户权益方面又迈出了一步。 草案公开征求意见截止至 2026 年 8 月 2 日。要求大型平台在 24 小时内处理违法信息投诉，并禁止强制使用 AI 服务。AI 标识要求与 2025 年 9 月 1 日生效的《人工智能生成内容标识管理办法》一致。
-
-telegram · zaihuapd · 7月3日 11:29
-
-**背景**: 中国近年来通过《网络安全法》《个人信息保护法》等不断强化互联网监管。2025 年 9 月 1 日生效的《人工智能生成内容标识管理办法》要求对 AI 生成内容进行显式和隐式标识以防止虚假信息。本次草案将规则扩展到平台账号管理，并禁止刷量、控评等操纵社交媒体的行为。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="http://english.scio.gov.cn/pressroom/2025-03/17/content_117769570.html">China requires labeling of AI-generated online content</a></li>
-<li><a href="https://regulations.ai/regulations/RAI-CN-NA-CONTENT-2025">China AI-Generated Content Labeling Measures - Regulations.AI</a></li>
-<li><a href="https://www.lexology.com/library/detail.aspx?g=3e0002f7-34f0-4df3-9879-b63a9350e085">The State Administration of Market Regulation Issues Typical ...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#internet regulation`, `#AI content labeling`, `#privacy`, `#China`, `#platform compliance`
+**标签**: `#AI安全`, `#网络安全`, `#腾讯`, `#GLM`, `#漏洞检测`
 
 ---
