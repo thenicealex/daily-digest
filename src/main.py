@@ -41,7 +41,7 @@ def main():
 
     try:
         # Load environment variables from .env file
-        load_dotenv()
+        load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 
         # Ensure we're in the project directory or use data/ in current dir
         data_dir = Path("data")
